@@ -1,0 +1,214 @@
+{
+  "selected_model": "XGBoost Regressor (Ratio-Stationary Panel Forecaster)",
+  "baseline_comparison": [
+    {
+      "Split": "Out-of-Sample Test (2025-2026)",
+      "Model": "Baseline 1: 3-Month Rolling Avg",
+      "MAE (NGN/kg)": 176.9,
+      "RMSE (NGN/kg)": 264.83,
+      "MAPE (%)": 6.36,
+      "Improvement vs Naive (%)": -26.82
+    },
+    {
+      "Split": "Out-of-Sample Test (2025-2026)",
+      "Model": "Baseline 2: Naive Last Month Price",
+      "MAE (NGN/kg)": 139.49,
+      "RMSE (NGN/kg)": 210.23,
+      "MAPE (%)": 5.12,
+      "Improvement vs Naive (%)": 0.0
+    },
+    {
+      "Split": "Out-of-Sample Test (2025-2026)",
+      "Model": "Model 2A: Random Forest Regressor",
+      "MAE (NGN/kg)": 148.4,
+      "RMSE (NGN/kg)": 219.92,
+      "MAPE (%)": 5.38,
+      "Improvement vs Naive (%)": -6.38
+    },
+    {
+      "Split": "Out-of-Sample Test (2025-2026)",
+      "Model": "Model 2B: XGBoost Regressor",
+      "MAE (NGN/kg)": 149.67,
+      "RMSE (NGN/kg)": 222.6,
+      "MAPE (%)": 5.45,
+      "Improvement vs Naive (%)": -7.29
+    }
+  ],
+  "commodity_metrics": [
+    {
+      "Product_Name": "Beans",
+      "Mean Price (NGN/kg)": 2663.83,
+      "Naive Baseline MAE": 166.54,
+      "XGBoost MAE": 179.79,
+      "XGBoost RMSE": 244.46,
+      "XGBoost MAPE (%)": 6.69
+    },
+    {
+      "Product_Name": "Beef",
+      "Mean Price (NGN/kg)": 4972.05,
+      "Naive Baseline MAE": 244.79,
+      "XGBoost MAE": 233.46,
+      "XGBoost RMSE": 291.31,
+      "XGBoost MAPE (%)": 4.8
+    },
+    {
+      "Product_Name": "Eggs",
+      "Mean Price (NGN/kg)": 5753.66,
+      "Naive Baseline MAE": 272.44,
+      "XGBoost MAE": 268.79,
+      "XGBoost RMSE": 321.25,
+      "XGBoost MAPE (%)": 4.75
+    },
+    {
+      "Product_Name": "Fish",
+      "Mean Price (NGN/kg)": 673.45,
+      "Naive Baseline MAE": 49.27,
+      "XGBoost MAE": 46.12,
+      "XGBoost RMSE": 58.71,
+      "XGBoost MAPE (%)": 7.14
+    },
+    {
+      "Product_Name": "Garri",
+      "Mean Price (NGN/kg)": 958.18,
+      "Naive Baseline MAE": 36.46,
+      "XGBoost MAE": 43.58,
+      "XGBoost RMSE": 54.96,
+      "XGBoost MAPE (%)": 4.61
+    },
+    {
+      "Product_Name": "Groundnuts",
+      "Mean Price (NGN/kg)": 3604.65,
+      "Naive Baseline MAE": 172.58,
+      "XGBoost MAE": 191.9,
+      "XGBoost RMSE": 232.5,
+      "XGBoost MAPE (%)": 5.4
+    },
+    {
+      "Product_Name": "Maize",
+      "Mean Price (NGN/kg)": 1092.85,
+      "Naive Baseline MAE": 40.66,
+      "XGBoost MAE": 47.39,
+      "XGBoost RMSE": 61.25,
+      "XGBoost MAPE (%)": 4.38
+    },
+    {
+      "Product_Name": "Onions",
+      "Mean Price (NGN/kg)": 539.95,
+      "Naive Baseline MAE": 30.17,
+      "XGBoost MAE": 30.99,
+      "XGBoost RMSE": 40.21,
+      "XGBoost MAPE (%)": 5.65
+    },
+    {
+      "Product_Name": "Rice",
+      "Mean Price (NGN/kg)": 5211.18,
+      "Naive Baseline MAE": 219.43,
+      "XGBoost MAE": 265.64,
+      "XGBoost RMSE": 356.71,
+      "XGBoost MAPE (%)": 5.21
+    },
+    {
+      "Product_Name": "Yam",
+      "Mean Price (NGN/kg)": 3242.42,
+      "Naive Baseline MAE": 162.59,
+      "XGBoost MAE": 189.01,
+      "XGBoost RMSE": 233.52,
+      "XGBoost MAPE (%)": 5.89
+    }
+  ],
+  "uncertainty_bounds": {
+    "beans": {
+      "q10_pct": -0.1223,
+      "q90_pct": 0.0631,
+      "test_mape_pct": 6.69
+    },
+    "eggs": {
+      "q10_pct": -0.0826,
+      "q90_pct": 0.0488,
+      "test_mape_pct": 4.75
+    },
+    "fish": {
+      "q10_pct": -0.135,
+      "q90_pct": 0.0708,
+      "test_mape_pct": 7.14
+    },
+    "gari_fao": {
+      "q10_pct": -0.0875,
+      "q90_pct": 0.025,
+      "test_mape_pct": 4.61
+    },
+    "groundnuts": {
+      "q10_pct": -0.0901,
+      "q90_pct": 0.0572,
+      "test_mape_pct": 5.4
+    },
+    "maize_fao": {
+      "q10_pct": -0.0892,
+      "q90_pct": 0.025,
+      "test_mape_pct": 4.38
+    },
+    "meat_beef": {
+      "q10_pct": -0.088,
+      "q90_pct": 0.0514,
+      "test_mape_pct": 4.8
+    },
+    "onions": {
+      "q10_pct": -0.0871,
+      "q90_pct": 0.0769,
+      "test_mape_pct": 5.65
+    },
+    "rice": {
+      "q10_pct": -0.1127,
+      "q90_pct": 0.0255,
+      "test_mape_pct": 5.21
+    },
+    "yam": {
+      "q10_pct": -0.0979,
+      "q90_pct": 0.0752,
+      "test_mape_pct": 5.89
+    }
+  },
+  "feature_names": [
+    "ret_1m",
+    "ret_2m",
+    "ret_3m",
+    "ret_6m",
+    "ret_12m",
+    "price_to_ma3",
+    "price_to_ma6",
+    "cv_3m",
+    "intra_month_return",
+    "high_low_spread",
+    "month_sin",
+    "month_cos",
+    "is_harvest_season",
+    "is_lean_season",
+    "is_festive_month",
+    "Market_ID",
+    "Product",
+    "Region"
+  ],
+  "numeric_features": [
+    "ret_1m",
+    "ret_2m",
+    "ret_3m",
+    "ret_6m",
+    "ret_12m",
+    "price_to_ma3",
+    "price_to_ma6",
+    "cv_3m",
+    "intra_month_return",
+    "high_low_spread",
+    "month_sin",
+    "month_cos",
+    "is_harvest_season",
+    "is_lean_season",
+    "is_festive_month"
+  ],
+  "categorical_features": [
+    "Market_ID",
+    "Product",
+    "Region"
+  ],
+  "last_trained_date": "2026-10-01"
+}
