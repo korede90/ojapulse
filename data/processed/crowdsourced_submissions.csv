@@ -1,0 +1,991 @@
+submission_id,observation_date,state,market_id,market_name,product_id,product_name,unit_name,kg_equivalent,submitted_price_ngn,normalized_price_per_kg,expected_benchmark_per_kg,reporter_name,reporter_role,is_anomaly_ground_truth,verification_status,anomaly_note
+SUB-1066,2026-10-20,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,Small Basket (~5kg),5.0,2800.0,560.0,566.37,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1544,2026-10-20,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,10950.0,2737.5,2756.71,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1032,2026-10-20,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,646.25,Mama Ngozi Stores,Consumer,0,verified,None
+SUB-1318,2026-10-20,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,2350.0,587.5,597.65,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1347,2026-10-20,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,25kg Half-Bag,25.0,69800.0,2792.0,2859.11,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1937,2026-10-20,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,1 kg,1.0,3750.0,3750.0,3831.99,Kemi Supermarket,Retailer,0,verified,None
+SUB-1820,2026-10-20,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,Crate (30 Eggs),1.0,5700.0,5700.0,5764.74,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1016,2026-10-20,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,Crate (30 Eggs),1.0,5450.0,5450.0,5365.11,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1654,2026-10-20,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,20kg Frozen Carton,18.8,13050.0,694.15,681.75,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1391,2026-10-20,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,50kg Bag,46.0,26500.0,576.09,564.7,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1759,2026-10-20,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,12950.0,3407.89,3442.75,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1079,2026-10-20,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,1 kg,1.0,4700.0,4700.0,4502.27,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1281,2026-10-20,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2650.0,5096.15,5204.01,Iya Bose Provision,Retailer,0,verified,None
+SUB-1582,2026-10-20,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4250.0,3541.67,3483.28,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1619,2026-10-20,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,1 kg,1.0,4650.0,4650.0,4509.93,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1004,2026-10-20,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,11350.0,2837.5,2793.69,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1611,2026-10-20,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,Small Basket (~5kg),5.0,2950.0,590.0,574.44,Kemi Supermarket,Retailer,0,verified,None
+SUB-1705,2026-10-20,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,Mudu (1.3kg),1.3,5550.0,4269.23,4276.94,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1872,2026-10-19,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,5 kg Catering Pack,4.8,26600.0,5541.67,5509.84,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1504,2026-10-19,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,50kg Bag,47.0,11350.0,241.49,931.05,Kemi Supermarket,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1073,2026-10-19,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,1 kg,1.0,4500.0,4500.0,4502.27,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1575,2026-10-19,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,50kg Bag,46.0,29750.0,646.74,629.35,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1842,2026-10-19,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,1 kg,1.0,700.0,700.0,670.83,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1068,2026-10-19,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,Large Raffia Bag (~70kg),65.0,36650.0,563.85,566.37,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1730,2026-10-19,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,Crate (30 Eggs),1.0,5250.0,5250.0,5202.86,Iya Bose Provision,Retailer,0,verified,None
+SUB-1745,2026-10-19,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,1 kg,1.0,650.0,650.0,653.36,Alhaji Musa Grains,Consumer,0,verified,None
+SUB-1385,2026-10-19,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,1 kg,1.0,550.0,550.0,578.94,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1188,2026-10-19,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,Derica (800g),0.8,2150.0,2687.5,2731.23,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1131,2026-10-19,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,1 kg,1.0,3200.0,3200.0,3094.24,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1756,2026-10-19,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,1 kg,1.0,150.0,150.0,641.05,Tunde Retail Mart,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1008,2026-10-19,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,Derica (800g),0.8,2250.0,2812.5,2793.69,Kemi Supermarket,Retailer,0,verified,None
+SUB-1449,2026-10-19,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,Large Tuber (~4kg),4.0,11850.0,2962.5,3042.32,Iya Bose Provision,Retailer,0,verified,None
+SUB-1285,2026-10-18,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,49100.0,5168.42,5204.01,Kemi Supermarket,Retailer,0,verified,None
+SUB-1122,2026-10-18,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,1 kg,1.0,550.0,550.0,573.42,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1154,2026-10-18,Oyo,mkt_bodija,Bodija Market,onions,Onions,1 kg,1.0,550.0,550.0,522.44,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1831,2026-10-18,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,20kg Frozen Carton,18.8,13550.0,720.74,707.31,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1639,2026-10-18,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,Mudu (1.25kg),1.25,800.0,640.0,2589.84,Mama Ngozi Stores,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1584,2026-10-18,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,50kg Bag,46.5,156350.0,3362.37,3483.28,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1599,2026-10-18,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,5 kg Catering Pack,4.8,26100.0,5437.5,5378.88,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1987,2026-10-18,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,1 kg,1.0,3850.0,3850.0,3775.41,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1007,2026-10-18,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,1 kg,1.0,2850.0,2850.0,2793.69,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1327,2026-10-18,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,107150.0,3348.44,3382.56,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1649,2026-10-18,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,1 kg,1.0,700.0,700.0,681.75,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1345,2026-10-18,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,Mudu (1.3kg),1.3,3800.0,2923.08,2859.11,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1210,2026-10-18,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2250.0,642.86,630.96,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1315,2026-10-18,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,1 kg,1.0,650.0,650.0,2219.62,Obinna Foodstuff,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1178,2026-10-18,Oyo,mkt_bodija,Bodija Market,yam,Yam,Medium Tuber (~2.5kg),2.5,7300.0,2920.0,3165.15,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1204,2026-10-17,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,20kg Frozen Carton,18.8,11850.0,630.32,656.75,Kemi Supermarket,Retailer,0,verified,None
+SUB-1841,2026-10-17,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,50kg Bag,46.0,31200.0,678.26,670.83,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1883,2026-10-17,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,1 kg,1.0,4750.0,4750.0,4710.85,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1798,2026-10-17,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,50kg Bag,46.5,199500.0,4290.32,4199.18,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1738,2026-10-17,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,17200.0,1810.53,5202.86,Bala Agro Traders,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1638,2026-10-17,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,Derica (800g),0.8,2150.0,2687.5,2589.84,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1637,2026-10-17,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,1 kg,1.0,2600.0,2600.0,2589.84,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1687,2026-10-17,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,168000.0,5250.0,5056.23,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1224,2026-10-17,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,50kg Bag,46.5,152600.0,3281.72,3278.25,Bala Agro Traders,Retailer,0,verified,None
+SUB-1151,2026-10-17,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,1 kg,1.0,4800.0,4800.0,4873.56,Bala Agro Traders,Retailer,0,verified,None
+SUB-1250,2026-10-17,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,Paint Bucket (~3kg),3.0,1650.0,550.0,546.69,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1763,2026-10-17,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,13300.0,3500.0,3442.75,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1238,2026-10-17,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,1 kg,1.0,5250.0,5250.0,5186.47,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1245,2026-10-17,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,Paint Bucket (~3kg),3.0,1600.0,533.33,546.69,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1714,2026-10-17,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,Large Tuber (~4kg),4.0,13050.0,3262.5,3325.17,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1796,2026-10-17,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,16200.0,4050.0,4199.18,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1475,2026-10-17,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,1 kg,1.0,750.0,750.0,735.1,Bala Agro Traders,Retailer,0,verified,None
+SUB-1041,2026-10-17,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,1 kg,1.0,3500.0,3500.0,3486.92,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1275,2026-10-17,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,50kg Bag,47.0,84800.0,1804.26,1800.28,Kemi Supermarket,Retailer,0,verified,None
+SUB-1985,2026-10-17,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,5 Tubers Heap,12.0,46350.0,3862.5,3775.41,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1414,2026-10-17,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,50kg Bag,47.0,7500.0,159.57,629.95,Hajiya Amina Staples,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1614,2026-10-17,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,Derica (850g),0.85,3700.0,4352.94,4509.93,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1904,2026-10-17,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,11800.0,2950.0,2945.01,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1550,2026-10-17,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,Crate (30 Eggs),1.0,5600.0,5600.0,5645.42,Bala Agro Traders,Consumer,0,verified,None
+SUB-1427,2026-10-17,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,25kg Mesh Bag,23.5,10000.0,425.53,416.89,Kemi Supermarket,Retailer,0,verified,None
+SUB-1106,2026-10-16,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,Crate (30 Eggs),1.0,5400.0,5400.0,5070.48,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1337,2026-10-16,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,25kg Mesh Bag,23.5,9000.0,382.98,387.89,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1199,2026-10-16,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,1 kg,1.0,650.0,650.0,656.75,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1026,2026-10-16,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,5 kg Pack,4.85,3150.0,649.48,686.14,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1359,2026-10-16,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,Large Tuber (~4kg),4.0,12700.0,3175.0,3057.79,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1964,2026-10-16,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,1 kg,1.0,600.0,600.0,624.41,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1672,2026-10-16,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,3850.0,3208.33,3250.38,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1117,2026-10-16,Oyo,mkt_bodija,Bodija Market,fish,Fish,20kg Frozen Carton,18.8,2600.0,138.3,628.15,Iya Bose Provision,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1161,2026-10-16,Oyo,mkt_bodija,Bodija Market,onions,Onions,Small Basket (~5kg),5.0,2650.0,530.0,522.44,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1158,2026-10-16,Oyo,mkt_bodija,Bodija Market,onions,Onions,Large Raffia Bag (~70kg),65.0,34100.0,524.62,522.44,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1156,2026-10-16,Oyo,mkt_bodija,Bodija Market,onions,Onions,Small Basket (~5kg),5.0,2600.0,520.0,522.44,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1133,2026-10-16,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,11950.0,3144.74,3094.24,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1215,2026-10-16,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,50kg Bag,46.0,29700.0,645.65,630.96,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1339,2026-10-16,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,1 kg,1.0,400.0,400.0,387.89,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1903,2026-10-16,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,Mudu (1.25kg),1.25,3600.0,2880.0,2945.01,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1296,2026-10-16,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,5 kg Pack,4.85,2900.0,597.94,592.28,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1628,2026-10-16,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8200.0,3280.0,3220.61,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1070,2026-10-16,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,Paint Bucket (~3kg),3.0,1650.0,550.0,566.37,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1896,2026-10-16,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,833650.0,3705.11,3529.19,Iya Bose Provision,Retailer,0,verified,None
+SUB-1297,2026-10-16,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,20kg Frozen Carton,18.8,2400.0,127.66,592.28,Obinna Foodstuff,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1252,2026-10-15,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,25kg Mesh Bag,23.5,4350.0,185.11,546.69,Bala Agro Traders,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1734,2026-10-15,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2750.0,5288.46,5202.86,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1658,2026-10-15,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,1 kg,1.0,600.0,600.0,638.09,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1348,2026-10-15,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,50kg Bag,46.5,138500.0,2978.49,2859.11,Kemi Supermarket,Retailer,0,verified,None
+SUB-1567,2026-10-15,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,20kg Frozen Carton,18.8,4100.0,218.09,688.23,Alhaji Musa Grains,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1087,2026-10-15,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,1 kg,1.0,3300.0,3300.0,3351.14,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1748,2026-10-15,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,641.05,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1720,2026-10-15,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,5 Tubers Heap,12.0,11300.0,941.67,3325.17,Alhaji Musa Grains,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1121,2026-10-15,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,50kg Bag,46.0,26800.0,582.61,573.42,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1266,2026-10-15,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,740600.0,3291.56,3310.66,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1010,2026-10-15,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,Crate (30 Eggs),1.0,5450.0,5450.0,5365.11,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1764,2026-10-15,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,50kg Bag,46.5,157700.0,3391.4,3442.75,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1286,2026-10-15,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,Crate (30 Eggs),1.0,5300.0,5300.0,5204.01,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1342,2026-10-15,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,25kg Mesh Bag,23.5,2350.0,100.0,387.89,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1249,2026-10-15,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,1 kg,1.0,550.0,550.0,546.69,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1651,2026-10-15,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,20kg Frozen Carton,18.8,12450.0,662.23,681.75,Alhaji Musa Grains,Consumer,0,verified,None
+SUB-1036,2026-10-15,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,1 kg,1.0,200.0,200.0,646.25,Obinna Foodstuff,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1477,2026-10-15,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,20kg Frozen Carton,18.8,4150.0,220.74,735.1,Alhaji Musa Grains,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1025,2026-10-15,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,1 kg,1.0,700.0,700.0,686.14,Kemi Supermarket,Retailer,0,verified,None
+SUB-1935,2026-10-15,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,50kg Bag,46.0,34000.0,739.13,748.09,Iya Bose Provision,Retailer,0,verified,None
+SUB-1474,2026-10-15,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,20kg Frozen Carton,18.8,13450.0,715.43,735.1,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1231,2026-10-15,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,1 kg,1.0,800.0,800.0,855.56,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1452,2026-10-15,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,Derica (800g),0.8,2250.0,2812.5,2896.61,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1200,2026-10-15,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,5 kg Pack,4.85,3150.0,649.48,656.75,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1101,2026-10-15,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2800.0,5384.62,5070.48,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1833,2026-10-15,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,5 kg Pack,4.85,3300.0,680.41,707.31,Iya Bose Provision,Retailer,0,verified,None
+SUB-1646,2026-10-15,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,Crate (30 Eggs),1.0,5450.0,5450.0,5493.32,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1232,2026-10-15,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,Mudu (1.3kg),1.3,1100.0,846.15,855.56,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1140,2026-10-14,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,100kg Bag,92.0,73750.0,801.63,820.99,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1400,2026-10-14,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,50kg Bag,46.5,114100.0,2453.76,2571.37,Iya Bose Provision,Consumer,0,verified,None
+SUB-1766,2026-10-14,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,1 kg,1.0,900.0,900.0,884.5,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1373,2026-10-14,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,Crate (30 Eggs),1.0,5200.0,5200.0,4943.01,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1259,2026-10-14,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,1 kg,1.0,4300.0,4300.0,4181.94,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1495,2026-10-14,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,1 kg,1.0,1150.0,1150.0,3733.27,Alhaji Musa Grains,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1368,2026-10-14,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,Derica (800g),0.8,1500.0,1875.0,1853.65,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1612,2026-10-14,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,25kg Mesh Bag,23.5,2550.0,108.51,574.44,Iya Bose Provision,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1221,2026-10-14,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,1 kg,1.0,3200.0,3200.0,3278.25,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1758,2026-10-14,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4150.0,3458.33,3442.75,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1417,2026-10-14,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,124250.0,3882.81,3776.16,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1176,2026-10-14,Oyo,mkt_bodija,Bodija Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,707150.0,3142.89,3165.15,Bala Agro Traders,Retailer,0,verified,None
+SUB-1340,2026-10-14,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,Paint Bucket (~3kg),3.0,1150.0,383.33,387.89,Iya Bose Provision,Retailer,0,verified,None
+SUB-1617,2026-10-14,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,25kg Half-Bag,25.0,113750.0,4550.0,4509.93,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1390,2026-10-14,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2050.0,585.71,564.7,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1882,2026-10-14,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,25kg Mesh Bag,23.5,2650.0,112.77,621.49,Tunde Retail Mart,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1876,2026-10-14,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,Small Basket (~5kg),5.0,3200.0,640.0,621.49,Bala Agro Traders,Retailer,0,verified,None
+SUB-1800,2026-10-14,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,Derica (850g),0.85,3450.0,4058.82,4199.18,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1086,2026-10-14,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,749250.0,3330.0,3351.14,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1047,2026-10-14,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,Mudu (1.3kg),1.3,1150.0,884.62,901.36,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1962,2026-10-14,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,5 kg Catering Pack,4.8,27950.0,5822.92,5505.69,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1927,2026-10-14,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,20kg Frozen Carton,18.8,3900.0,207.45,769.68,Bala Agro Traders,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1119,2026-10-14,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,573.42,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1806,2026-10-14,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,764000.0,3395.56,3258.33,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1938,2026-10-13,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4700.0,3916.67,3831.99,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1378,2026-10-13,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,15600.0,1642.11,4943.01,Mama Ngozi Stores,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1472,2026-10-13,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,1 kg,1.0,650.0,650.0,735.1,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1187,2026-10-13,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,1 kg,1.0,2850.0,2850.0,2731.23,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1107,2026-10-13,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2650.0,5096.15,5070.48,Bala Agro Traders,Retailer,0,verified,None
+SUB-1394,2026-10-13,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2000.0,571.43,564.7,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1508,2026-10-13,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,1 kg,1.0,5100.0,5100.0,5440.52,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1097,2026-10-13,Oyo,mkt_bodija,Bodija Market,beans,Beans,1 kg,1.0,2500.0,2500.0,2629.59,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1527,2026-10-13,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,25kg Half-Bag,25.0,116850.0,4674.0,4832.53,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1693,2026-10-13,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,53900.0,1684.38,5056.23,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1092,2026-10-13,Oyo,mkt_bodija,Bodija Market,beans,Beans,Derica (800g),0.8,2000.0,2500.0,2629.59,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1674,2026-10-13,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,50kg Bag,46.5,152150.0,3272.04,3250.38,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1890,2026-10-13,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,Derica (850g),0.85,4050.0,4764.71,4710.85,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1349,2026-10-13,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,1 kg,1.0,2800.0,2800.0,2859.11,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1060,2026-10-13,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,169100.0,5284.38,5121.25,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1762,2026-10-13,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,3950.0,3291.67,3442.75,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1360,2026-10-13,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,5 Tubers Heap,12.0,11550.0,962.5,3057.79,Tunde Retail Mart,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1403,2026-10-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,10050.0,2644.74,2571.37,Alhaji Musa Grains,Consumer,0,verified,None
+SUB-1682,2026-10-12,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,Mudu (1.3kg),1.3,1100.0,846.15,826.21,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1885,2026-10-12,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,Mudu (1.3kg),1.3,5900.0,4538.46,4710.85,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1382,2026-10-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,1 kg,1.0,600.0,600.0,578.94,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1869,2026-10-12,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,5 kg Catering Pack,4.8,25650.0,5343.75,5509.84,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1790,2026-10-12,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,Paint Bucket (~3kg),3.0,1700.0,566.67,587.39,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1668,2026-10-12,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,3950.0,3291.67,3250.38,Iya Bose Provision,Retailer,0,verified,None
+SUB-1043,2026-10-12,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,13550.0,3565.79,3486.92,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1147,2026-10-12,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,157600.0,4925.0,4873.56,Kemi Supermarket,Retailer,0,verified,None
+SUB-1216,2026-10-12,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,1 kg,1.0,200.0,200.0,630.96,Adaeze Kitchen Supply,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1419,2026-10-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,5 kg Catering Pack,4.8,18050.0,3760.42,3776.16,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1257,2026-10-12,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,25kg Half-Bag,25.0,102750.0,4110.0,4181.94,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1059,2026-10-12,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,5 kg Catering Pack,4.8,24900.0,5187.5,5121.25,Iya Bose Provision,Retailer,0,verified,None
+SUB-1848,2026-10-12,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4250.0,3541.67,3743.73,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1548,2026-10-12,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,Derica (800g),0.8,2300.0,2875.0,2756.71,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1443,2026-10-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,Medium Tuber (~2.5kg),2.5,7600.0,3040.0,3042.32,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1124,2026-10-12,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2000.0,571.43,573.42,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1746,2026-10-12,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,5 kg Pack,4.85,3150.0,649.48,653.36,Bala Agro Traders,Retailer,0,verified,None
+SUB-1675,2026-10-12,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,1 kg,1.0,850.0,850.0,3250.38,Bala Agro Traders,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1312,2026-10-12,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,2650.0,2208.33,2219.62,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1770,2026-10-11,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,100kg Bag,92.0,78700.0,855.43,884.5,Bala Agro Traders,Retailer,0,verified,None
+SUB-1237,2026-10-11,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,162200.0,5068.75,5186.47,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1701,2026-10-11,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,Small Basket (~5kg),5.0,2700.0,540.0,551.73,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1304,2026-10-11,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2100.0,600.0,610.23,Bala Agro Traders,Retailer,0,verified,None
+SUB-1522,2026-10-11,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,25kg Mesh Bag,23.5,4200.0,178.72,607.96,Chinedu Bulk Foods,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1217,2026-10-11,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,1 kg,1.0,3350.0,3350.0,3278.25,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1860,2026-10-11,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,100kg Bag,92.0,83400.0,906.52,893.86,Obinna Foodstuff,Consumer,0,verified,None
+SUB-1006,2026-10-11,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,100kg Jute Bag,92.0,260150.0,2827.72,2793.69,Kemi Supermarket,Consumer,0,verified,None
+SUB-1194,2026-10-11,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3000.0,5769.23,5601.28,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1650,2026-10-11,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,5 kg Pack,4.85,3300.0,680.41,681.75,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1408,2026-10-11,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,2550.0,637.5,629.95,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1103,2026-10-11,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,Crate (30 Eggs),1.0,5050.0,5050.0,5070.48,Alhaji Musa Grains,Consumer,0,verified,None
+SUB-1802,2026-10-11,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,1 kg,1.0,3300.0,3300.0,3258.33,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1742,2026-10-11,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,1 kg,1.0,650.0,650.0,653.36,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1429,2026-10-11,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,1 kg,1.0,450.0,450.0,416.89,Mama Ngozi Stores,Consumer,0,verified,None
+SUB-1440,2026-10-11,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,Derica (850g),0.85,2750.0,3235.29,3163.75,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1071,2026-10-11,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,Small Basket (~5kg),5.0,2850.0,570.0,566.37,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1174,2026-10-11,Oyo,mkt_bodija,Bodija Market,yam,Yam,Large Tuber (~4kg),4.0,13350.0,3337.5,3165.15,Obinna Foodstuff,Consumer,0,verified,None
+SUB-1323,2026-10-11,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,2250.0,562.5,597.65,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1939,2026-10-11,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,14550.0,3828.95,3831.99,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1585,2026-10-11,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,1 kg,1.0,1150.0,1150.0,3483.28,Iya Bose Provision,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1487,2026-10-11,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,1 kg,1.0,3850.0,3850.0,3733.27,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1109,2026-10-11,Oyo,mkt_bodija,Bodija Market,fish,Fish,1 kg,1.0,650.0,650.0,628.15,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1111,2026-10-10,Oyo,mkt_bodija,Bodija Market,fish,Fish,20kg Frozen Carton,18.8,11800.0,627.66,628.15,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1571,2026-10-10,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,50kg Bag,46.0,28800.0,626.09,629.35,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1317,2026-10-10,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,Mudu (1.3kg),1.3,800.0,615.38,597.65,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1067,2026-10-10,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,25kg Mesh Bag,23.5,13550.0,576.6,566.37,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1906,2026-10-10,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,100kg Jute Bag,92.0,267200.0,2904.35,2945.01,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1844,2026-10-10,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2250.0,642.86,670.83,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1695,2026-10-10,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,Paint Bucket (~3kg),3.0,1600.0,533.33,551.73,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1543,2026-10-10,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,Mudu (1.25kg),1.25,3500.0,2800.0,2756.71,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1331,2026-10-10,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,1 kg,1.0,3550.0,3550.0,3382.56,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1589,2026-10-10,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,50kg Bag,47.0,42300.0,900.0,890.05,Iya Bose Provision,Retailer,0,verified,None
+SUB-1510,2026-10-10,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,174050.0,5439.06,5440.52,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1374,2026-10-10,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2550.0,4903.85,4943.01,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1583,2026-10-10,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,13100.0,3447.37,3483.28,Iya Bose Provision,Retailer,0,verified,None
+SUB-1586,2026-10-09,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,1 kg,1.0,850.0,850.0,890.05,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1618,2026-10-09,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,50kg Bag,46.5,205450.0,4418.28,4509.93,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1788,2026-10-09,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,Large Raffia Bag (~70kg),65.0,38550.0,593.08,587.39,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1545,2026-10-09,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,50kg Bag,47.0,131200.0,2791.49,2756.71,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1893,2026-10-09,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,Medium Tuber (~2.5kg),2.5,9200.0,3680.0,3529.19,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1932,2026-10-09,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,1 kg,1.0,750.0,750.0,748.09,Alhaji Musa Grains,Consumer,0,verified,None
+SUB-1310,2026-10-09,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,50kg Bag,46.5,104850.0,2254.84,2219.62,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1388,2026-10-09,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,1 kg,1.0,550.0,550.0,564.7,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1100,2026-10-09,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,Crate (30 Eggs),1.0,5100.0,5100.0,5070.48,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1823,2026-10-09,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,Crate (30 Eggs),1.0,5700.0,5700.0,5764.74,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1320,2026-10-09,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,100kg Bag,92.0,54700.0,594.57,597.65,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1982,2026-10-09,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,1 kg,1.0,3800.0,3800.0,3775.41,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1181,2026-10-09,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,1 kg,1.0,2700.0,2700.0,2731.23,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1420,2026-10-09,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,121100.0,3784.38,3776.16,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1456,2026-10-09,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,100kg Jute Bag,92.0,269350.0,2927.72,2896.61,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1172,2026-10-09,Oyo,mkt_bodija,Bodija Market,yam,Yam,1 kg,1.0,3400.0,3400.0,3165.15,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1326,2026-10-08,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,5 kg Catering Pack,4.8,16200.0,3375.0,3382.56,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1410,2026-10-08,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,100kg Bag,92.0,58900.0,640.22,629.95,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1484,2026-10-08,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2450.0,700.0,699.83,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1609,2026-10-08,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,1 kg,1.0,600.0,600.0,574.44,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1643,2026-10-08,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,Crate (30 Eggs),1.0,5350.0,5350.0,5493.32,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1948,2026-10-08,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3950.0,987.5,965.26,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1976,2026-10-08,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,18550.0,4637.5,4755.92,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1186,2026-10-08,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,100kg Jute Bag,92.0,261950.0,2847.28,2731.23,Iya Bose Provision,Retailer,0,verified,None
+SUB-1075,2026-10-08,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,Mudu (1.3kg),1.3,5600.0,4307.69,4502.27,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1779,2026-10-08,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,5 kg Catering Pack,4.8,23800.0,4958.33,5195.5,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1507,2026-10-08,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,169500.0,5296.88,5440.52,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1857,2026-10-08,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,Mudu (1.3kg),1.3,1150.0,884.62,893.86,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1005,2026-10-08,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,50kg Bag,47.0,137000.0,2914.89,2793.69,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1923,2026-10-08,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,5 kg Pack,4.85,3600.0,742.27,769.68,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1412,2026-10-08,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,Mudu (1.3kg),1.3,800.0,615.38,629.95,Bala Agro Traders,Retailer,0,verified,None
+SUB-1212,2026-10-08,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,630.96,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1551,2026-10-08,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2850.0,5480.77,5645.42,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1130,2026-10-08,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,50kg Bag,46.5,136900.0,2944.09,3094.24,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1787,2026-10-08,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,25kg Mesh Bag,23.5,13850.0,589.36,587.39,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1809,2026-10-08,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,Large Tuber (~4kg),4.0,12900.0,3225.0,3258.33,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1530,2026-10-08,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,Derica (850g),0.85,4100.0,4823.53,4832.53,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1524,2026-10-08,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,Derica (850g),0.85,4000.0,4705.88,4832.53,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1511,2026-10-08,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,1 kg,1.0,5750.0,5750.0,5440.52,Iya Bose Provision,Retailer,0,verified,None
+SUB-1561,2026-10-08,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,20kg Frozen Carton,18.8,13350.0,710.11,688.23,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1425,2026-10-08,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,Paint Bucket (~3kg),3.0,1300.0,433.33,416.89,Bala Agro Traders,Retailer,0,verified,None
+SUB-1379,2026-10-07,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,1 kg,1.0,600.0,600.0,578.94,Kemi Supermarket,Retailer,0,verified,None
+SUB-1357,2026-10-07,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,1 kg,1.0,3050.0,3050.0,3057.79,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1970,2026-10-07,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,Paint Bucket (~3kg),3.0,1850.0,616.67,624.41,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1613,2026-10-07,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,1 kg,1.0,4500.0,4500.0,4509.93,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1407,2026-10-07,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,Mudu (1.3kg),1.3,800.0,615.38,629.95,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1076,2026-10-07,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,18200.0,4550.0,4502.27,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1683,2026-10-07,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3300.0,825.0,826.21,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1230,2026-10-07,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,100kg Bag,92.0,79200.0,860.87,855.56,Iya Bose Provision,Retailer,0,verified,None
+SUB-1397,2026-10-07,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,1 kg,1.0,2600.0,2600.0,2571.37,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1657,2026-10-07,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,20kg Frozen Carton,18.8,4350.0,231.38,681.75,Obinna Foodstuff,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1773,2026-10-07,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3600.0,900.0,884.5,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1392,2026-10-07,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,1 kg,1.0,550.0,550.0,564.7,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1715,2026-10-07,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,5 Tubers Heap,12.0,39950.0,3329.17,3325.17,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1719,2026-10-07,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,Large Tuber (~4kg),4.0,13300.0,3325.0,3325.17,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1768,2026-10-07,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3700.0,925.0,884.5,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1878,2026-10-07,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,Large Raffia Bag (~70kg),65.0,39150.0,602.31,621.49,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1795,2026-10-07,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,Mudu (1.3kg),1.3,5700.0,4384.62,4199.18,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1358,2026-10-06,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,Medium Tuber (~2.5kg),2.5,7700.0,3080.0,3057.79,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1977,2026-10-06,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,25kg Half-Bag,25.0,118550.0,4742.0,4755.92,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1170,2026-10-06,Oyo,mkt_bodija,Bodija Market,rice,Rice,Derica (850g),0.85,3500.0,4117.65,4209.27,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1542,2026-10-06,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,Derica (800g),0.8,2150.0,2687.5,2756.71,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1363,2026-10-06,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,Mudu (1.25kg),1.25,2250.0,1800.0,1853.65,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1526,2026-10-06,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,18850.0,4712.5,4832.53,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1201,2026-10-06,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,20kg Frozen Carton,18.8,13000.0,691.49,656.75,Iya Bose Provision,Retailer,0,verified,None
+SUB-1198,2026-10-06,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,12250.0,1289.47,5601.28,Bala Agro Traders,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1173,2026-10-06,Oyo,mkt_bodija,Bodija Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8350.0,3340.0,3165.15,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1015,2026-10-06,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,49250.0,5184.21,5365.11,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1819,2026-10-06,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,Mudu (1.25kg),1.25,1250.0,1000.0,2855.22,Hajiya Amina Staples,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1113,2026-10-06,Oyo,mkt_bodija,Bodija Market,fish,Fish,5 kg Pack,4.85,2900.0,597.94,628.15,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1946,2026-10-06,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,1 kg,1.0,950.0,950.0,965.26,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1488,2026-10-06,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4350.0,3625.0,3733.27,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1014,2026-10-06,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2750.0,5288.46,5365.11,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1826,2026-10-06,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,Crate (30 Eggs),1.0,5650.0,5650.0,5764.74,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1034,2026-10-06,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2300.0,657.14,646.25,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1316,2026-10-06,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,1 kg,1.0,600.0,600.0,597.65,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1203,2026-10-06,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,5 kg Pack,4.85,3100.0,639.18,656.75,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1681,2026-10-06,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,1 kg,1.0,800.0,800.0,826.21,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1055,2026-10-06,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,1 kg,1.0,4950.0,4950.0,5121.25,Bala Agro Traders,Retailer,0,verified,None
+SUB-1894,2026-10-05,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,Large Tuber (~4kg),4.0,14500.0,3625.0,3529.19,Obinna Foodstuff,Consumer,0,verified,None
+SUB-1450,2026-10-05,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,5 Tubers Heap,12.0,8200.0,683.33,3042.32,Adaeze Kitchen Supply,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1430,2026-10-05,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,Paint Bucket (~3kg),3.0,1250.0,416.67,416.89,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1162,2026-10-05,Oyo,mkt_bodija,Bodija Market,onions,Onions,25kg Mesh Bag,23.5,3150.0,134.04,522.44,Iya Bose Provision,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1063,2026-10-05,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,40550.0,1267.19,5121.25,Iya Bose Provision,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1354,2026-10-05,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,Large Tuber (~4kg),4.0,12600.0,3150.0,3057.79,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1267,2026-10-05,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,1 kg,1.0,3550.0,3550.0,3310.66,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1633,2026-10-05,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,Mudu (1.25kg),1.25,3150.0,2520.0,2589.84,Iya Bose Provision,Retailer,0,verified,None
+SUB-1468,2026-10-05,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,13400.0,1410.53,5840.03,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1605,2026-10-05,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,Paint Bucket (~3kg),3.0,1750.0,583.33,574.44,Kemi Supermarket,Consumer,0,verified,None
+SUB-1744,2026-10-05,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,20kg Frozen Carton,18.8,11750.0,625.0,653.36,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1128,2026-10-05,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,3600.0,3000.0,3094.24,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1741,2026-10-05,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,20kg Frozen Carton,18.8,12150.0,646.28,653.36,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1884,2026-10-05,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,Derica (850g),0.85,4100.0,4823.53,4710.85,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1753,2026-10-05,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,641.05,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1096,2026-10-05,Oyo,mkt_bodija,Bodija Market,beans,Beans,100kg Jute Bag,92.0,238800.0,2595.65,2629.59,Iya Bose Provision,Consumer,0,verified,None
+SUB-1384,2026-10-05,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,20kg Frozen Carton,18.8,10800.0,574.47,578.94,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1084,2026-10-05,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,Large Tuber (~4kg),4.0,13350.0,3337.5,3351.14,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1856,2026-10-05,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,1 kg,1.0,950.0,950.0,893.86,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1287,2026-10-05,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2700.0,5192.31,5204.01,Bala Agro Traders,Retailer,0,verified,None
+SUB-1393,2026-10-05,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,Derica (750g),0.75,400.0,533.33,564.7,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1399,2026-10-04,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,9550.0,2513.16,2571.37,Bala Agro Traders,Retailer,0,verified,None
+SUB-1208,2026-10-04,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,630.96,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1205,2026-10-04,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,1 kg,1.0,700.0,700.0,656.75,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1455,2026-10-04,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,50kg Bag,47.0,133950.0,2850.0,2896.61,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1556,2026-10-04,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,Crate (30 Eggs),1.0,5600.0,5600.0,5645.42,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1338,2026-10-04,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,Large Raffia Bag (~70kg),65.0,26050.0,400.77,387.89,Bala Agro Traders,Retailer,0,verified,None
+SUB-1369,2026-10-04,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,Mudu (1.25kg),1.25,650.0,520.0,1853.65,Hajiya Amina Staples,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1532,2026-10-04,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,1 kg,1.0,3500.0,3500.0,3522.57,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1836,2026-10-04,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,5 kg Pack,4.85,3300.0,680.41,707.31,Bala Agro Traders,Retailer,0,verified,None
+SUB-1116,2026-10-04,Oyo,mkt_bodija,Bodija Market,fish,Fish,5 kg Pack,4.85,3250.0,670.1,628.15,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1377,2026-10-04,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2500.0,4807.69,4943.01,Iya Bose Provision,Retailer,0,verified,None
+SUB-1816,2026-10-04,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,100kg Jute Bag,92.0,259750.0,2823.37,2855.22,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1164,2026-10-04,Oyo,mkt_bodija,Bodija Market,rice,Rice,Derica (850g),0.85,3550.0,4176.47,4209.27,Iya Bose Provision,Retailer,0,verified,None
+SUB-1120,2026-10-04,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2100.0,600.0,573.42,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1760,2026-10-04,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,50kg Bag,46.5,155200.0,3337.63,3442.75,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1018,2026-10-04,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,14800.0,1557.89,5365.11,Alhaji Musa Grains,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1125,2026-10-04,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,50kg Bag,46.0,26850.0,583.7,573.42,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1886,2026-10-04,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,18900.0,4725.0,4710.85,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1030,2026-10-04,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2250.0,642.86,646.25,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1942,2026-10-04,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4700.0,3916.67,3831.99,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1873,2026-10-04,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,53900.0,1684.38,5509.84,Iya Bose Provision,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1785,2026-10-04,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,Paint Bucket (~3kg),3.0,1800.0,600.0,587.39,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1863,2026-10-04,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3500.0,875.0,893.86,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1941,2026-10-04,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,1 kg,1.0,3800.0,3800.0,3831.99,Iya Bose Provision,Consumer,0,verified,None
+SUB-1104,2026-10-04,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2650.0,5096.15,5070.48,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1042,2026-10-04,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4300.0,3583.33,3486.92,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1243,2026-10-04,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,54650.0,1707.81,5186.47,Bala Agro Traders,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1180,2026-10-04,Oyo,mkt_bodija,Bodija Market,yam,Yam,5 Tubers Heap,12.0,10800.0,900.0,3165.15,Adaeze Kitchen Supply,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1009,2026-10-03,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,Mudu (1.25kg),1.25,1200.0,960.0,2793.69,Obinna Foodstuff,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1775,2026-10-03,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,1 kg,1.0,5250.0,5250.0,5195.5,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1731,2026-10-03,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2900.0,5576.92,5202.86,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1751,2026-10-03,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,50kg Bag,46.0,28950.0,629.35,641.05,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1112,2026-10-03,Oyo,mkt_bodija,Bodija Market,fish,Fish,1 kg,1.0,650.0,650.0,628.15,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1862,2026-10-03,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,Mudu (1.3kg),1.3,1150.0,884.62,893.86,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1293,2026-10-03,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,5 kg Pack,4.85,2950.0,608.25,592.28,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1849,2026-10-03,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,14700.0,3868.42,3743.73,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1708,2026-10-03,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,50kg Bag,46.5,203750.0,4381.72,4276.94,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1971,2026-10-03,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,Small Basket (~5kg),5.0,3100.0,620.0,624.41,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1171,2026-10-02,Oyo,mkt_bodija,Bodija Market,rice,Rice,Mudu (1.3kg),1.3,1350.0,1038.46,4209.27,Kemi Supermarket,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1341,2026-10-02,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,Small Basket (~5kg),5.0,2000.0,400.0,387.89,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1065,2026-10-02,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,Paint Bucket (~3kg),3.0,1700.0,566.67,566.37,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1881,2026-10-02,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,Small Basket (~5kg),5.0,3050.0,610.0,621.49,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1648,2026-10-02,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,13900.0,1463.16,5493.32,Obinna Foodstuff,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1563,2026-10-02,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,5 kg Pack,4.85,3250.0,670.1,688.23,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1226,2026-10-02,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,1 kg,1.0,850.0,850.0,855.56,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1986,2026-10-02,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,845550.0,3758.0,3775.41,Kemi Supermarket,Retailer,0,verified,None
+SUB-1413,2026-10-02,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,2450.0,612.5,629.95,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1747,2026-10-02,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,20kg Frozen Carton,18.8,2300.0,122.34,653.36,Obinna Foodstuff,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1466,2026-10-02,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,Crate (30 Eggs),1.0,5800.0,5800.0,5840.03,Kemi Supermarket,Consumer,0,verified,None
+SUB-1211,2026-10-02,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,50kg Bag,46.0,27650.0,601.09,630.96,Bala Agro Traders,Retailer,0,verified,None
+SUB-1704,2026-10-02,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,Derica (850g),0.85,3650.0,4294.12,4276.94,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1020,2026-10-02,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,5 kg Pack,4.85,3300.0,680.41,686.14,Iya Bose Provision,Retailer,0,verified,None
+SUB-1421,2026-10-02,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,1 kg,1.0,3800.0,3800.0,3776.16,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1716,2026-10-02,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,747650.0,3322.89,3325.17,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1028,2026-10-02,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,646.25,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1324,2026-10-02,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,50kg Bag,47.0,7200.0,153.19,597.65,Obinna Foodstuff,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1471,2026-10-02,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,20kg Frozen Carton,18.8,14400.0,765.96,735.1,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1799,2026-10-02,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,1 kg,1.0,4150.0,4150.0,4199.18,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1797,2026-10-01,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,25kg Half-Bag,25.0,107400.0,4296.0,4199.18,Iya Bose Provision,Retailer,0,verified,None
+SUB-1451,2026-10-01,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,1 kg,1.0,2950.0,2950.0,2896.61,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1969,2026-10-01,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,1 kg,1.0,600.0,600.0,624.41,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1920,2026-10-01,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,5 kg Pack,4.85,4100.0,845.36,769.68,Bala Agro Traders,Consumer,0,verified,None
+SUB-1564,2026-10-01,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,20kg Frozen Carton,18.8,12950.0,688.83,688.23,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1911,2026-10-01,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3150.0,6057.69,6084.9,Iya Bose Provision,Retailer,0,verified,None
+SUB-1861,2026-10-01,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,1 kg,1.0,900.0,900.0,893.86,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1660,2026-10-01,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2150.0,614.29,638.09,Iya Bose Provision,Retailer,0,verified,None
+SUB-1679,2026-10-01,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,50kg Bag,47.0,38950.0,828.72,826.21,Iya Bose Provision,Retailer,0,verified,None
+SUB-1691,2026-10-01,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,1 kg,1.0,5000.0,5000.0,5056.23,Bala Agro Traders,Retailer,0,verified,None
+SUB-1697,2026-10-01,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,25kg Mesh Bag,23.5,12700.0,540.43,551.73,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1706,2026-10-01,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,17850.0,4462.5,4276.94,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1743,2026-10-01,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,5 kg Pack,4.85,3200.0,659.79,653.36,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1808,2026-10-01,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8100.0,3240.0,3258.33,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1001,2026-10-01,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,1 kg,1.0,2800.0,2800.0,2793.69,Iya Bose Provision,Retailer,0,verified,None
+SUB-1990,2026-10-01,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,5 Tubers Heap,12.0,15650.0,1304.17,3775.41,Alhaji Musa Grains,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1094,2026-10-01,Oyo,mkt_bodija,Bodija Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,10250.0,2562.5,2629.59,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1262,2026-10-01,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,1 kg,1.0,3200.0,3200.0,3310.66,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1289,2026-10-01,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,1 kg,1.0,600.0,600.0,592.28,Iya Bose Provision,Retailer,0,verified,None
+SUB-1279,2026-10-01,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,Mudu (1.25kg),1.25,650.0,520.0,1800.28,Adaeze Kitchen Supply,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1019,2026-10-01,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,1 kg,1.0,700.0,700.0,686.14,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1274,2026-10-01,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,7200.0,1800.0,1800.28,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1139,2026-10-01,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,50kg Bag,47.0,39350.0,837.23,820.99,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1261,2026-10-01,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,Mudu (1.3kg),1.3,1300.0,1000.0,4181.94,Obinna Foodstuff,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1057,2026-10-01,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,165400.0,5168.75,5121.25,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1220,2026-10-01,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,50kg Bag,46.5,156450.0,3364.52,3278.25,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1858,2026-09-30,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3650.0,912.5,893.86,Bala Agro Traders,Retailer,0,verified,None
+SUB-1793,2026-09-30,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,1 kg,1.0,4150.0,4150.0,4199.18,Obinna Foodstuff,Consumer,0,verified,None
+SUB-1098,2026-09-30,Oyo,mkt_bodija,Bodija Market,beans,Beans,Derica (800g),0.8,2150.0,2687.5,2629.59,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1834,2026-09-30,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,20kg Frozen Carton,18.8,12900.0,686.17,707.31,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1899,2026-09-30,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,Large Tuber (~4kg),4.0,14300.0,3575.0,3529.19,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1822,2026-09-30,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,55050.0,5794.74,5764.74,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1546,2026-09-30,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,100kg Jute Bag,92.0,241250.0,2622.28,2756.71,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1913,2026-09-30,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,Crate (30 Eggs),1.0,6050.0,6050.0,6084.9,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1389,2026-09-30,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,564.7,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1769,2026-09-30,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,50kg Bag,47.0,43400.0,923.4,884.5,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1146,2026-09-30,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,5 kg Catering Pack,4.8,23300.0,4854.17,4873.56,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1436,2026-09-30,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,12500.0,3125.0,3163.75,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1765,2026-09-30,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,1 kg,1.0,650.0,650.0,3442.75,Obinna Foodstuff,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1163,2026-09-30,Oyo,mkt_bodija,Bodija Market,rice,Rice,1 kg,1.0,4150.0,4150.0,4209.27,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1169,2026-09-30,Oyo,mkt_bodija,Bodija Market,rice,Rice,1 kg,1.0,4200.0,4200.0,4209.27,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1184,2026-09-30,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,11350.0,2837.5,2731.23,Kemi Supermarket,Consumer,0,verified,None
+SUB-1260,2026-09-30,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,Derica (850g),0.85,3550.0,4176.47,4181.94,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1707,2026-09-30,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,25kg Half-Bag,25.0,107750.0,4310.0,4276.94,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1246,2026-09-30,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,Small Basket (~5kg),5.0,2800.0,560.0,546.69,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1350,2026-09-30,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,Derica (850g),0.85,2400.0,2823.53,2859.11,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1305,2026-09-30,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,50kg Bag,46.0,29000.0,630.43,610.23,Kemi Supermarket,Retailer,0,verified,None
+SUB-1968,2026-09-30,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,Large Raffia Bag (~70kg),65.0,40300.0,620.0,624.41,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1396,2026-09-29,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,1 kg,1.0,200.0,200.0,564.7,Obinna Foodstuff,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1516,2026-09-29,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,Small Basket (~5kg),5.0,3000.0,600.0,607.96,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1313,2026-09-29,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,8400.0,2210.53,2219.62,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1608,2026-09-29,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,Large Raffia Bag (~70kg),65.0,37550.0,577.69,574.44,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1580,2026-09-29,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,50kg Bag,46.5,170850.0,3674.19,3483.28,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1865,2026-09-29,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,1 kg,1.0,5450.0,5450.0,5509.84,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1868,2026-09-29,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,1 kg,1.0,5600.0,5600.0,5509.84,Iya Bose Provision,Retailer,0,verified,None
+SUB-1928,2026-09-29,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,1 kg,1.0,750.0,750.0,748.09,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1202,2026-09-29,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,1 kg,1.0,650.0,650.0,656.75,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1936,2026-09-29,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,1 kg,1.0,200.0,200.0,748.09,Chinedu Bulk Foods,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1625,2026-09-29,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,5 Tubers Heap,12.0,39050.0,3254.17,3220.61,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1888,2026-09-29,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,50kg Bag,46.5,219550.0,4721.51,4710.85,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1832,2026-09-29,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,1 kg,1.0,700.0,700.0,707.31,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1078,2026-09-29,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,50kg Bag,46.5,213150.0,4583.87,4502.27,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1501,2026-09-29,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,1 kg,1.0,950.0,950.0,931.05,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1017,2026-09-29,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2800.0,5384.62,5365.11,Bala Agro Traders,Consumer,0,verified,None
+SUB-1190,2026-09-29,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,Crate (30 Eggs),1.0,5800.0,5800.0,5601.28,Kemi Supermarket,Retailer,0,verified,None
+SUB-1592,2026-09-29,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,Mudu (1.3kg),1.3,1200.0,923.08,890.05,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1562,2026-09-29,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,1 kg,1.0,650.0,650.0,688.23,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1778,2026-09-29,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,1 kg,1.0,5250.0,5250.0,5195.5,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1228,2026-09-29,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3400.0,850.0,855.56,Iya Bose Provision,Retailer,0,verified,None
+SUB-1671,2026-09-29,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,1 kg,1.0,3150.0,3150.0,3250.38,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1547,2026-09-29,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,1 kg,1.0,2800.0,2800.0,2756.71,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1789,2026-09-29,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,1 kg,1.0,600.0,600.0,587.39,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1854,2026-09-28,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,50kg Bag,46.5,177950.0,3826.88,3743.73,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1167,2026-09-28,Oyo,mkt_bodija,Bodija Market,rice,Rice,25kg Half-Bag,25.0,104100.0,4164.0,4209.27,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1907,2026-09-28,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,1 kg,1.0,3000.0,3000.0,2945.01,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1476,2026-09-28,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,5 kg Pack,4.85,3550.0,731.96,735.1,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1062,2026-09-28,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,5 kg Catering Pack,4.8,24100.0,5020.83,5121.25,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1503,2026-09-28,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3700.0,925.0,931.05,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1325,2026-09-28,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,1 kg,1.0,3450.0,3450.0,3382.56,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1594,2026-09-28,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,50kg Bag,47.0,13150.0,279.79,890.05,Alhaji Musa Grains,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1269,2026-09-28,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,Large Tuber (~4kg),4.0,13700.0,3425.0,3310.66,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1880,2026-09-28,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,Paint Bucket (~3kg),3.0,1900.0,633.33,621.49,Kemi Supermarket,Retailer,0,verified,None
+SUB-1039,2026-09-28,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,12900.0,3394.74,3486.92,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1626,2026-09-28,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,726150.0,3227.33,3220.61,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1362,2026-09-28,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,Derica (800g),0.8,1600.0,2000.0,1853.65,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1127,2026-09-28,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,1 kg,1.0,3050.0,3050.0,3094.24,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1141,2026-09-28,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,1 kg,1.0,850.0,850.0,820.99,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1953,2026-09-28,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,4000.0,1000.0,965.26,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1165,2026-09-28,Oyo,mkt_bodija,Bodija Market,rice,Rice,Mudu (1.3kg),1.3,5550.0,4269.23,4209.27,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1481,2026-09-28,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,50kg Bag,46.0,31900.0,693.48,699.83,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1302,2026-09-28,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,1 kg,1.0,600.0,600.0,610.23,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1346,2026-09-28,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,11750.0,2937.5,2859.11,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1142,2026-09-28,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,Mudu (1.3kg),1.3,1100.0,846.15,820.99,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1828,2026-09-28,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,14000.0,1473.68,5764.74,Bala Agro Traders,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1825,2026-09-27,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,54400.0,5726.32,5764.74,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1166,2026-09-27,Oyo,mkt_bodija,Bodija Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,17000.0,4250.0,4209.27,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1490,2026-09-27,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,50kg Bag,46.5,167750.0,3607.53,3733.27,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1311,2026-09-27,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,1 kg,1.0,2200.0,2200.0,2219.62,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1376,2026-09-27,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,Crate (30 Eggs),1.0,4900.0,4900.0,4943.01,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1966,2026-09-27,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,Small Basket (~5kg),5.0,3100.0,620.0,624.41,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1182,2026-09-27,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,Derica (800g),0.8,2300.0,2875.0,2731.23,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1416,2026-09-27,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,5 kg Catering Pack,4.8,18000.0,3750.0,3776.16,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1093,2026-09-27,Oyo,mkt_bodija,Bodija Market,beans,Beans,Mudu (1.25kg),1.25,3250.0,2600.0,2629.59,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1321,2026-09-27,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,1 kg,1.0,600.0,600.0,597.65,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1027,2026-09-27,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,20kg Frozen Carton,18.8,2850.0,151.6,686.14,Bala Agro Traders,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1600,2026-09-27,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,169500.0,5296.88,5378.88,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1641,2026-09-27,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2850.0,5480.77,5493.32,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1381,2026-09-27,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,20kg Frozen Carton,18.8,10900.0,579.79,578.94,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1263,2026-09-27,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8300.0,3320.0,3310.66,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1037,2026-09-27,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,1 kg,1.0,3700.0,3700.0,3486.92,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1698,2026-09-27,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,Large Raffia Bag (~70kg),65.0,35350.0,543.85,551.73,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1191,2026-09-27,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3050.0,5865.38,5601.28,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1943,2026-09-27,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,14950.0,3934.21,3831.99,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1046,2026-09-27,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,1 kg,1.0,900.0,900.0,901.36,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1723,2026-09-27,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,Mudu (1.25kg),1.25,3350.0,2680.0,2674.94,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1897,2026-09-27,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,1 kg,1.0,3600.0,3600.0,3529.19,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1329,2026-09-27,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,5 kg Catering Pack,4.8,16600.0,3458.33,3382.56,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1064,2026-09-27,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,1 kg,1.0,600.0,600.0,566.37,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1301,2026-09-26,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,50kg Bag,46.0,28100.0,610.87,610.23,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1815,2026-09-26,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,50kg Bag,47.0,132900.0,2827.66,2855.22,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1821,2026-09-26,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2900.0,5576.92,5764.74,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1387,2026-09-26,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,20kg Frozen Carton,18.8,2500.0,132.98,578.94,Adaeze Kitchen Supply,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1288,2026-09-26,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,9600.0,1010.53,5204.01,Iya Bose Provision,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1574,2026-09-26,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2200.0,628.57,629.35,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1666,2026-09-26,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,1 kg,1.0,200.0,200.0,638.09,Bala Agro Traders,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1664,2026-09-26,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2150.0,614.29,638.09,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1411,2026-09-26,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,1 kg,1.0,650.0,650.0,629.95,Iya Bose Provision,Retailer,0,verified,None
+SUB-1540,2026-09-26,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,5 Tubers Heap,12.0,13150.0,1095.83,3522.57,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1132,2026-09-26,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,3700.0,3083.33,3094.24,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1447,2026-09-26,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,1 kg,1.0,3150.0,3150.0,3042.32,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1448,2026-09-26,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,Medium Tuber (~2.5kg),2.5,7850.0,3140.0,3042.32,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1134,2026-09-26,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,50kg Bag,46.5,146650.0,3153.76,3094.24,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1179,2026-09-26,Oyo,mkt_bodija,Bodija Market,yam,Yam,Large Tuber (~4kg),4.0,12400.0,3100.0,3165.15,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1089,2026-09-26,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,Large Tuber (~4kg),4.0,14100.0,3525.0,3351.14,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1725,2026-09-26,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,50kg Bag,47.0,131000.0,2787.23,2674.94,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1988,2026-09-26,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,Medium Tuber (~2.5kg),2.5,9450.0,3780.0,3775.41,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1909,2026-09-26,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,Mudu (1.25kg),1.25,850.0,680.0,2945.01,Iya Bose Provision,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1072,2026-09-26,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,25kg Mesh Bag,23.5,3900.0,165.96,566.37,Adaeze Kitchen Supply,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1724,2026-09-26,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,10900.0,2725.0,2674.94,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1460,2026-09-26,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,Crate (30 Eggs),1.0,6050.0,6050.0,5840.03,Iya Bose Provision,Retailer,0,verified,None
+SUB-1024,2026-09-26,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,20kg Frozen Carton,18.8,12700.0,675.53,686.14,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1265,2026-09-26,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,5 Tubers Heap,12.0,39000.0,3250.0,3310.66,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1601,2026-09-26,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,1 kg,1.0,5050.0,5050.0,5378.88,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1531,2026-09-25,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,Mudu (1.3kg),1.3,1900.0,1461.54,4832.53,Mama Ngozi Stores,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1299,2026-09-25,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,610.23,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1622,2026-09-25,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,1 kg,1.0,3300.0,3300.0,3220.61,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1726,2026-09-25,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,100kg Jute Bag,92.0,243750.0,2649.46,2674.94,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1552,2026-09-25,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,52100.0,5484.21,5645.42,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1807,2026-09-25,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,1 kg,1.0,3150.0,3150.0,3258.33,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1661,2026-09-25,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,50kg Bag,46.0,29550.0,642.39,638.09,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1470,2026-09-25,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,5 kg Pack,4.85,3800.0,783.51,735.1,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1867,2026-09-25,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,176900.0,5528.12,5509.84,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1432,2026-09-25,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,25kg Mesh Bag,23.5,2150.0,91.49,416.89,Chinedu Bulk Foods,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1655,2026-09-25,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,1 kg,1.0,650.0,650.0,681.75,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1963,2026-09-25,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,53550.0,1673.44,5505.69,Kemi Supermarket,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1776,2026-09-25,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,5 kg Catering Pack,4.8,25150.0,5239.58,5195.5,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1035,2026-09-25,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,50kg Bag,46.0,30050.0,653.26,646.25,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1157,2026-09-25,Oyo,mkt_bodija,Bodija Market,onions,Onions,25kg Mesh Bag,23.5,12000.0,510.64,522.44,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1160,2026-09-25,Oyo,mkt_bodija,Bodija Market,onions,Onions,Paint Bucket (~3kg),3.0,1600.0,533.33,522.44,Iya Bose Provision,Retailer,0,verified,None
+SUB-1193,2026-09-25,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,Crate (30 Eggs),1.0,5500.0,5500.0,5601.28,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1757,2026-09-25,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,1 kg,1.0,3400.0,3400.0,3442.75,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1557,2026-09-24,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3050.0,5865.38,5645.42,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1610,2026-09-24,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,Paint Bucket (~3kg),3.0,1700.0,566.67,574.44,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1677,2026-09-24,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,Mudu (1.3kg),1.3,1050.0,807.69,826.21,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1242,2026-09-24,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,5 kg Catering Pack,4.8,25650.0,5343.75,5186.47,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1398,2026-09-24,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,3050.0,2541.67,2571.37,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1537,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,1 kg,1.0,3550.0,3550.0,3522.57,Kemi Supermarket,Retailer,0,verified,None
+SUB-1486,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,1 kg,1.0,150.0,150.0,699.83,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1502,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,Mudu (1.3kg),1.3,1150.0,884.62,931.05,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1499,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,50kg Bag,47.0,45300.0,963.83,931.05,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1090,2026-09-24,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,5 Tubers Heap,12.0,7900.0,658.33,3351.14,Alhaji Musa Grains,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1509,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,5 kg Catering Pack,4.8,27450.0,5718.75,5440.52,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1480,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2500.0,714.29,699.83,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1105,2026-09-24,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,47200.0,4968.42,5070.48,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1811,2026-09-24,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,1 kg,1.0,2800.0,2800.0,2855.22,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1535,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,5 Tubers Heap,12.0,42000.0,3500.0,3522.57,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1364,2026-09-24,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,7650.0,1912.5,1853.65,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1457,2026-09-24,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,1 kg,1.0,2950.0,2950.0,2896.61,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1827,2026-09-24,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3000.0,5769.23,5764.74,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1351,2026-09-24,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,Mudu (1.3kg),1.3,750.0,576.92,2859.11,Chinedu Bulk Foods,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1954,2026-09-24,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,50kg Bag,47.0,9750.0,207.45,965.26,Kemi Supermarket,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1945,2026-09-23,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,1 kg,1.0,1000.0,1000.0,3831.99,Adaeze Kitchen Supply,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1155,2026-09-23,Oyo,mkt_bodija,Bodija Market,onions,Onions,Paint Bucket (~3kg),3.0,1600.0,533.33,522.44,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1415,2026-09-23,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,1 kg,1.0,3850.0,3850.0,3776.16,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1433,2026-09-23,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,1 kg,1.0,3100.0,3100.0,3163.75,Iya Bose Provision,Consumer,0,verified,None
+SUB-1686,2026-09-23,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,5 kg Catering Pack,4.8,23850.0,4968.75,5056.23,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1225,2026-09-23,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,1 kg,1.0,800.0,800.0,3278.25,Adaeze Kitchen Supply,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1375,2026-09-23,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,49250.0,5184.21,4943.01,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1895,2026-09-23,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,5 Tubers Heap,12.0,43350.0,3612.5,3529.19,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1917,2026-09-23,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3200.0,6153.85,6084.9,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1196,2026-09-23,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,Crate (30 Eggs),1.0,5600.0,5600.0,5601.28,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1925,2026-09-23,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,1 kg,1.0,750.0,750.0,769.68,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1703,2026-09-23,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,1 kg,1.0,4550.0,4550.0,4276.94,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1406,2026-09-23,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,1 kg,1.0,650.0,650.0,629.95,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1694,2026-09-23,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,1 kg,1.0,550.0,550.0,551.73,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1386,2026-09-23,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,5 kg Pack,4.85,2750.0,567.01,578.94,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1233,2026-09-23,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3150.0,787.5,855.56,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1794,2026-09-23,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,Derica (850g),0.85,3750.0,4411.76,4199.18,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1975,2026-09-23,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,Mudu (1.3kg),1.3,6300.0,4846.15,4755.92,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1519,2026-09-23,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,1 kg,1.0,600.0,600.0,607.96,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1777,2026-09-23,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,167200.0,5225.0,5195.5,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1533,2026-09-23,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8500.0,3400.0,3522.57,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1972,2026-09-22,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,25kg Mesh Bag,23.5,4100.0,174.47,624.41,Mama Ngozi Stores,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1258,2026-09-22,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,50kg Bag,46.5,205150.0,4411.83,4181.94,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1593,2026-09-22,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3700.0,925.0,890.05,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1875,2026-09-22,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,Paint Bucket (~3kg),3.0,1850.0,616.67,621.49,Bala Agro Traders,Retailer,0,verified,None
+SUB-1049,2026-09-22,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,50kg Bag,47.0,41450.0,881.91,901.36,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1717,2026-09-22,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,1 kg,1.0,3350.0,3350.0,3325.17,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1587,2026-09-22,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,Mudu (1.3kg),1.3,1150.0,884.62,890.05,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1572,2026-09-22,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,1 kg,1.0,700.0,700.0,629.35,Bala Agro Traders,Retailer,0,verified,None
+SUB-1529,2026-09-22,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,1 kg,1.0,4650.0,4650.0,4832.53,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1604,2026-09-22,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,1 kg,1.0,600.0,600.0,574.44,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1330,2026-09-22,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,105900.0,3309.38,3382.56,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1554,2026-09-22,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3000.0,5769.23,5645.42,Bala Agro Traders,Consumer,0,verified,None
+SUB-1635,2026-09-22,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,50kg Bag,47.0,124500.0,2648.94,2589.84,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1498,2026-09-22,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3750.0,937.5,931.05,Iya Bose Provision,Retailer,0,verified,None
+SUB-1974,2026-09-22,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,Derica (850g),0.85,4000.0,4705.88,4755.92,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1981,2026-09-22,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,Mudu (1.3kg),1.3,1950.0,1500.0,4755.92,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1214,2026-09-22,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2300.0,657.14,630.96,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1960,2026-09-22,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,177300.0,5540.62,5505.69,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1144,2026-09-22,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,50kg Bag,47.0,12650.0,269.15,820.99,Tunde Retail Mart,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1924,2026-09-22,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,20kg Frozen Carton,18.8,14550.0,773.94,769.68,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1934,2026-09-22,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2550.0,728.57,748.09,Kemi Supermarket,Retailer,0,verified,None
+SUB-1206,2026-09-22,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,5 kg Pack,4.85,3300.0,680.41,656.75,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1428,2026-09-22,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,Large Raffia Bag (~70kg),65.0,28550.0,439.23,416.89,Bala Agro Traders,Retailer,0,verified,None
+SUB-1022,2026-09-22,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,1 kg,1.0,650.0,650.0,686.14,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1306,2026-09-22,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,1 kg,1.0,150.0,150.0,610.23,Adaeze Kitchen Supply,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1352,2026-09-22,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,1 kg,1.0,3150.0,3150.0,3057.79,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1607,2026-09-22,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,25kg Mesh Bag,23.5,13800.0,587.23,574.44,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1919,2026-09-21,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,1 kg,1.0,800.0,800.0,769.68,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1461,2026-09-21,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3050.0,5865.38,5840.03,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1435,2026-09-21,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,Mudu (1.3kg),1.3,4200.0,3230.77,3163.75,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1328,2026-09-21,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,1 kg,1.0,3300.0,3300.0,3382.56,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1956,2026-09-21,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,5 kg Catering Pack,4.8,26000.0,5416.67,5505.69,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1645,2026-09-21,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,52350.0,5510.53,5493.32,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1737,2026-09-21,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2650.0,5096.15,5202.86,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1314,2026-09-21,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,50kg Bag,46.5,101850.0,2190.32,2219.62,Kemi Supermarket,Retailer,0,verified,None
+SUB-1061,2026-09-21,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,1 kg,1.0,5050.0,5050.0,5121.25,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1395,2026-09-20,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,gari_fao,Garri,50kg Bag,46.0,25150.0,546.74,564.7,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1276,2026-09-20,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,100kg Jute Bag,92.0,168000.0,1826.09,1800.28,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1209,2026-09-20,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,630.96,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1629,2026-09-20,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,Large Tuber (~4kg),4.0,12950.0,3237.5,3220.61,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1256,2026-09-20,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,17400.0,4350.0,4181.94,Bala Agro Traders,Retailer,0,verified,None
+SUB-1837,2026-09-20,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,20kg Frozen Carton,18.8,3500.0,186.17,707.31,Hajiya Amina Staples,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1361,2026-09-20,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,1 kg,1.0,1900.0,1900.0,1853.65,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1367,2026-09-20,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,1 kg,1.0,1950.0,1950.0,1853.65,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1272,2026-09-20,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,Derica (800g),0.8,1450.0,1812.5,1800.28,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1805,2026-09-20,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,5 Tubers Heap,12.0,39450.0,3287.5,3258.33,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1978,2026-09-20,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,50kg Bag,46.5,229350.0,4932.26,4755.92,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1984,2026-09-20,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,Large Tuber (~4kg),4.0,15500.0,3875.0,3775.41,Alhaji Musa Grains,Consumer,0,verified,None
+SUB-1958,2026-09-20,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,1 kg,1.0,5300.0,5300.0,5505.69,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1910,2026-09-20,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,Crate (30 Eggs),1.0,6350.0,6350.0,6084.9,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1879,2026-09-20,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,1 kg,1.0,600.0,600.0,621.49,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1602,2026-09-20,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,5 kg Catering Pack,4.8,26950.0,5614.58,5378.88,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1222,2026-09-19,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4150.0,3458.33,3278.25,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1031,2026-09-19,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,50kg Bag,46.0,29350.0,638.04,646.25,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1803,2026-09-19,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8150.0,3260.0,3258.33,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1033,2026-09-19,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,646.25,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1514,2026-09-19,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,1 kg,1.0,650.0,650.0,607.96,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1812,2026-09-19,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,Derica (800g),0.8,2350.0,2937.5,2855.22,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1560,2026-09-19,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,5 kg Pack,4.85,3350.0,690.72,688.23,Kemi Supermarket,Consumer,0,verified,None
+SUB-1566,2026-09-19,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,5 kg Pack,4.85,3350.0,690.72,688.23,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1280,2026-09-19,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,Crate (30 Eggs),1.0,5150.0,5150.0,5204.01,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1518,2026-09-19,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,Large Raffia Bag (~70kg),65.0,40350.0,620.77,607.96,Bala Agro Traders,Consumer,0,verified,None
+SUB-1569,2026-09-19,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,629.35,Obinna Foodstuff,Consumer,0,verified,None
+SUB-1541,2026-09-19,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,1 kg,1.0,2700.0,2700.0,2756.71,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1740,2026-09-18,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,5 kg Pack,4.85,3250.0,670.1,653.36,Kemi Supermarket,Retailer,0,verified,None
+SUB-1905,2026-09-18,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,50kg Bag,47.0,136150.0,2896.81,2945.01,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1148,2026-09-18,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,1 kg,1.0,4750.0,4750.0,4873.56,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1077,2026-09-18,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,25kg Half-Bag,25.0,111050.0,4442.0,4502.27,Mama Ngozi Stores,Consumer,0,verified,None
+SUB-1110,2026-09-18,Oyo,mkt_bodija,Bodija Market,fish,Fish,5 kg Pack,4.85,2850.0,587.63,628.15,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1721,2026-09-18,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,1 kg,1.0,2750.0,2750.0,2674.94,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1817,2026-09-18,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,1 kg,1.0,2800.0,2800.0,2855.22,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1052,2026-09-18,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,Mudu (1.3kg),1.3,1150.0,884.62,901.36,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1791,2026-09-18,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,Small Basket (~5kg),5.0,2950.0,590.0,587.39,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1236,2026-09-18,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,5 kg Catering Pack,4.8,26050.0,5427.08,5186.47,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1219,2026-09-18,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,12300.0,3236.84,3278.25,Bala Agro Traders,Retailer,0,verified,None
+SUB-1282,2026-09-18,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,48800.0,5136.84,5204.01,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1271,2026-09-18,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,1 kg,1.0,1750.0,1750.0,1800.28,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1437,2026-09-18,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,25kg Half-Bag,25.0,84150.0,3366.0,3163.75,Iya Bose Provision,Retailer,0,verified,None
+SUB-1442,2026-09-18,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,1 kg,1.0,3000.0,3000.0,3042.32,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1418,2026-09-18,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,1 kg,1.0,3850.0,3850.0,3776.16,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1525,2026-09-18,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,Mudu (1.3kg),1.3,6350.0,4884.62,4832.53,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1300,2026-09-18,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2150.0,614.29,610.23,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1404,2026-09-17,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,50kg Bag,46.5,113150.0,2433.33,2571.37,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1750,2026-09-17,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2300.0,657.14,641.05,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1640,2026-09-17,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,Crate (30 Eggs),1.0,5700.0,5700.0,5493.32,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1728,2026-09-17,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,Derica (800g),0.8,2150.0,2687.5,2674.94,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1183,2026-09-17,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,Mudu (1.25kg),1.25,3450.0,2760.0,2731.23,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1921,2026-09-17,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,20kg Frozen Carton,18.8,14100.0,750.0,769.68,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1670,2026-09-17,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,50kg Bag,46.5,151950.0,3267.74,3250.38,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1940,2026-09-17,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,50kg Bag,46.5,172700.0,3713.98,3831.99,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1355,2026-09-17,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,5 Tubers Heap,12.0,36450.0,3037.5,3057.79,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1754,2026-09-17,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2350.0,671.43,641.05,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1915,2026-09-17,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,60800.0,6400.0,6084.9,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1623,2026-09-17,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8150.0,3260.0,3220.61,Kemi Supermarket,Retailer,0,verified,None
+SUB-1153,2026-09-17,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,40700.0,1271.88,4873.56,Kemi Supermarket,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1656,2026-09-17,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,5 kg Pack,4.85,3400.0,701.03,681.75,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1380,2026-09-17,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,5 kg Pack,4.85,2800.0,577.32,578.94,Kemi Supermarket,Retailer,0,verified,None
+SUB-1473,2026-09-17,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,5 kg Pack,4.85,3600.0,742.27,735.1,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1044,2026-09-16,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,50kg Bag,46.5,161450.0,3472.04,3486.92,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1727,2026-09-16,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,1 kg,1.0,2750.0,2750.0,2674.94,Iya Bose Provision,Retailer,0,verified,None
+SUB-1464,2026-09-16,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3150.0,6057.69,5840.03,Iya Bose Provision,Retailer,0,verified,None
+SUB-1227,2026-09-16,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,Mudu (1.3kg),1.3,1050.0,807.69,855.56,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1810,2026-09-16,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,5 Tubers Heap,12.0,9750.0,812.5,3258.33,Mama Ngozi Stores,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1303,2026-09-16,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,610.23,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1255,2026-09-16,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,Mudu (1.3kg),1.3,5350.0,4115.38,4181.94,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1989,2026-09-16,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,Large Tuber (~4kg),4.0,14850.0,3712.5,3775.41,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1240,2026-09-16,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,172850.0,5401.56,5186.47,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1784,2026-09-16,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,1 kg,1.0,600.0,600.0,587.39,Bala Agro Traders,Retailer,0,verified,None
+SUB-1485,2026-09-16,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,50kg Bag,46.0,32100.0,697.83,699.83,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1463,2026-09-16,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,Crate (30 Eggs),1.0,5850.0,5850.0,5840.03,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1772,2026-09-16,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,Mudu (1.3kg),1.3,1200.0,923.08,884.5,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1091,2026-09-16,Oyo,mkt_bodija,Bodija Market,beans,Beans,1 kg,1.0,2600.0,2600.0,2629.59,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1892,2026-09-15,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,1 kg,1.0,3450.0,3450.0,3529.19,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1559,2026-09-15,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,1 kg,1.0,700.0,700.0,688.23,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1085,2026-09-15,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,5 Tubers Heap,12.0,40800.0,3400.0,3351.14,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1431,2026-09-15,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,Small Basket (~5kg),5.0,2100.0,420.0,416.89,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1159,2026-09-15,Oyo,mkt_bodija,Bodija Market,onions,Onions,1 kg,1.0,500.0,500.0,522.44,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1931,2026-09-15,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,50kg Bag,46.0,35000.0,760.87,748.09,Iya Bose Provision,Retailer,0,verified,None
+SUB-1332,2026-09-15,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,5 kg Catering Pack,4.8,16950.0,3531.25,3382.56,Iya Bose Provision,Retailer,0,verified,None
+SUB-1570,2026-09-15,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2300.0,657.14,629.35,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1458,2026-09-15,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,Derica (800g),0.8,2200.0,2750.0,2896.61,Bala Agro Traders,Retailer,0,verified,None
+SUB-1902,2026-09-15,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,Derica (800g),0.8,2450.0,3062.5,2945.01,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1453,2026-09-15,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,Mudu (1.25kg),1.25,3650.0,2920.0,2896.61,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1916,2026-09-15,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,Crate (30 Eggs),1.0,6000.0,6000.0,6084.9,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1478,2026-09-15,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,1 kg,1.0,700.0,700.0,699.83,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1344,2026-09-15,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,Derica (850g),0.85,2400.0,2823.53,2859.11,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1195,2026-09-15,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,53250.0,5605.26,5601.28,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1423,2026-09-15,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,32200.0,1006.25,3776.16,Alhaji Musa Grains,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1818,2026-09-15,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,Derica (800g),0.8,2300.0,2875.0,2855.22,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1631,2026-09-15,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,1 kg,1.0,2550.0,2550.0,2589.84,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1850,2026-09-15,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,50kg Bag,46.5,172400.0,3707.53,3743.73,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1688,2026-09-15,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,1 kg,1.0,5050.0,5050.0,5056.23,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1627,2026-09-15,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,1 kg,1.0,3400.0,3400.0,3220.61,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1307,2026-09-14,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,1 kg,1.0,2250.0,2250.0,2219.62,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1292,2026-09-14,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,1 kg,1.0,600.0,600.0,592.28,Bala Agro Traders,Retailer,0,verified,None
+SUB-1874,2026-09-14,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,1 kg,1.0,600.0,600.0,621.49,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1185,2026-09-14,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,50kg Bag,47.0,133750.0,2845.74,2731.23,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1733,2026-09-14,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,Crate (30 Eggs),1.0,5200.0,5200.0,5202.86,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1549,2026-09-14,Lagos,mkt_mile12,Mile 12 International Market,beans,Beans,Mudu (1.25kg),1.25,900.0,720.0,2756.71,Iya Bose Provision,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1680,2026-09-14,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,100kg Bag,92.0,76650.0,833.15,826.21,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1855,2026-09-14,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,1 kg,1.0,800.0,800.0,3743.73,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1248,2026-09-14,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,Large Raffia Bag (~70kg),65.0,35800.0,550.77,546.69,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1023,2026-09-14,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,5 kg Pack,4.85,3450.0,711.34,686.14,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1536,2026-09-14,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,775400.0,3446.22,3522.57,Bala Agro Traders,Retailer,0,verified,None
+SUB-1517,2026-09-14,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,25kg Mesh Bag,23.5,15050.0,640.43,607.96,Kemi Supermarket,Retailer,0,verified,None
+SUB-1980,2026-09-14,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,Derica (850g),0.85,4100.0,4823.53,4755.92,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1521,2026-09-14,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,Small Basket (~5kg),5.0,3200.0,640.0,607.96,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1891,2026-09-14,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,Mudu (1.3kg),1.3,2050.0,1576.92,4710.85,Kemi Supermarket,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1901,2026-09-14,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,1 kg,1.0,2950.0,2950.0,2945.01,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1961,2026-09-14,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,1 kg,1.0,5600.0,5600.0,5505.69,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1370,2026-09-13,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,Crate (30 Eggs),1.0,5050.0,5050.0,4943.01,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1839,2026-09-13,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,670.83,Bala Agro Traders,Retailer,0,verified,None
+SUB-1781,2026-09-13,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,1 kg,1.0,5450.0,5450.0,5195.5,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1483,2026-09-13,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,Derica (750g),0.75,550.0,733.33,699.83,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1568,2026-09-13,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,629.35,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1322,2026-09-13,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,Mudu (1.3kg),1.3,750.0,576.92,597.65,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1644,2026-09-13,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3000.0,5769.23,5493.32,Kemi Supermarket,Retailer,0,verified,None
+SUB-1290,2026-09-13,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,5 kg Pack,4.85,2900.0,597.94,592.28,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1853,2026-09-13,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,14800.0,3894.74,3743.73,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1402,2026-09-13,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,2950.0,2458.33,2571.37,Alhaji Musa Grains,Market Agent,0,verified,None
+SUB-1234,2026-09-13,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,50kg Bag,47.0,12350.0,262.77,855.56,Bala Agro Traders,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1459,2026-09-13,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,Mudu (1.25kg),1.25,1050.0,840.0,2896.61,Mama Ngozi Stores,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1578,2026-09-13,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4250.0,3541.67,3483.28,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1366,2026-09-13,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,100kg Jute Bag,92.0,162550.0,1766.85,1853.65,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1947,2026-09-13,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,Mudu (1.3kg),1.3,1250.0,961.54,965.26,Iya Bose Provision,Retailer,0,verified,None
+SUB-1446,2026-09-13,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,682600.0,3033.78,3042.32,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1422,2026-09-13,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,meat_beef,Beef,5 kg Catering Pack,4.8,18550.0,3864.58,3776.16,Iya Bose Provision,Retailer,0,verified,None
+SUB-1930,2026-09-13,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2500.0,714.29,748.09,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1598,2026-09-13,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,1 kg,1.0,5350.0,5350.0,5378.88,Kemi Supermarket,Retailer,0,verified,None
+SUB-1115,2026-09-13,Oyo,mkt_bodija,Bodija Market,fish,Fish,1 kg,1.0,650.0,650.0,628.15,Bala Agro Traders,Retailer,0,verified,None
+SUB-1497,2026-09-13,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,Mudu (1.3kg),1.3,1250.0,961.54,931.05,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1813,2026-09-13,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,Mudu (1.25kg),1.25,3500.0,2800.0,2855.22,Bala Agro Traders,Retailer,0,verified,None
+SUB-1859,2026-09-13,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,50kg Bag,47.0,41150.0,875.53,893.86,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1002,2026-09-12,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,Derica (800g),0.8,2400.0,3000.0,2793.69,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1383,2026-09-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,fish,Fish,5 kg Pack,4.85,2750.0,567.01,578.94,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1439,2026-09-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,1 kg,1.0,3200.0,3200.0,3163.75,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1213,2026-09-12,Lagos,mkt_daleko,Daleko Rice & Grain Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,630.96,Iya Bose Provision,Retailer,0,verified,None
+SUB-1864,2026-09-12,Lagos,mkt_oyingbo,Oyingbo Market,maize_fao,Maize,50kg Bag,47.0,14250.0,303.19,893.86,Hajiya Amina Staples,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1239,2026-09-12,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,5 kg Catering Pack,4.8,25050.0,5218.75,5186.47,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1718,2026-09-12,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8300.0,3320.0,3325.17,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1632,2026-09-12,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,Derica (800g),0.8,2050.0,2562.5,2589.84,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1624,2026-09-12,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,Large Tuber (~4kg),4.0,12350.0,3087.5,3220.61,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1445,2026-09-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,5 Tubers Heap,12.0,37750.0,3145.83,3042.32,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1045,2026-09-12,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,1 kg,1.0,650.0,650.0,3486.92,Tunde Retail Mart,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1581,2026-09-12,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,1 kg,1.0,3600.0,3600.0,3483.28,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1595,2026-09-12,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,1 kg,1.0,5500.0,5500.0,5378.88,Kemi Supermarket,Consumer,0,verified,None
+SUB-1254,2026-09-12,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,Derica (850g),0.85,3550.0,4176.47,4181.94,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1405,2026-09-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,1 kg,1.0,900.0,900.0,2571.37,Iya Bose Provision,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1603,2026-09-12,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,55750.0,1742.19,5378.88,Adaeze Kitchen Supply,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1409,2026-09-12,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,maize_fao,Maize,50kg Bag,47.0,28300.0,602.13,629.95,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1678,2026-09-12,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3500.0,875.0,826.21,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1513,2026-09-11,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,55750.0,1742.19,5440.52,Bala Agro Traders,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1295,2026-09-11,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,1 kg,1.0,600.0,600.0,592.28,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1871,2026-09-11,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,1 kg,1.0,5500.0,5500.0,5509.84,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1058,2026-09-11,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,1 kg,1.0,5050.0,5050.0,5121.25,Hajiya Amina Staples,Consumer,0,verified,None
+SUB-1520,2026-09-11,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,Paint Bucket (~3kg),3.0,1900.0,633.33,607.96,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1786,2026-09-11,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,Small Basket (~5kg),5.0,3000.0,600.0,587.39,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1493,2026-09-11,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,14200.0,3736.84,3733.27,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1136,2026-09-11,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,1 kg,1.0,850.0,850.0,820.99,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1918,2026-09-11,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,12500.0,1315.79,6084.9,Mama Ngozi Stores,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1465,2026-09-11,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,56400.0,5936.84,5840.03,Iya Bose Provision,Retailer,0,verified,None
+SUB-1898,2026-09-11,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8650.0,3460.0,3529.19,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1175,2026-09-11,Oyo,mkt_bodija,Bodija Market,yam,Yam,5 Tubers Heap,12.0,38100.0,3175.0,3165.15,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1353,2026-09-11,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,Medium Tuber (~2.5kg),2.5,7400.0,2960.0,3057.79,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1152,2026-09-11,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,5 kg Catering Pack,4.8,23800.0,4958.33,4873.56,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1696,2026-09-11,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,Small Basket (~5kg),5.0,2700.0,540.0,551.73,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1616,2026-09-10,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,Paint Bucket / Olodo (4kg),4.0,17850.0,4462.5,4509.93,Kemi Supermarket,Retailer,0,verified,None
+SUB-1689,2026-09-10,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,5 kg Catering Pack,4.8,24550.0,5114.58,5056.23,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1615,2026-09-10,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,Mudu (1.3kg),1.3,5750.0,4423.08,4509.93,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1957,2026-09-10,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,177900.0,5559.38,5505.69,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1690,2026-09-10,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,168750.0,5273.44,5056.23,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1365,2026-09-10,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,beans,Beans,50kg Bag,47.0,89700.0,1908.51,1853.65,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1877,2026-09-10,Lagos,mkt_oyingbo,Oyingbo Market,onions,Onions,25kg Mesh Bag,23.5,14550.0,619.15,621.49,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1685,2026-09-10,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,1 kg,1.0,5100.0,5100.0,5056.23,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1114,2026-09-10,Oyo,mkt_bodija,Bodija Market,fish,Fish,20kg Frozen Carton,18.8,11900.0,632.98,628.15,Kemi Supermarket,Retailer,0,verified,None
+SUB-1251,2026-09-10,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,Small Basket (~5kg),5.0,2800.0,560.0,546.69,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1663,2026-09-10,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,638.09,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1012,2026-09-10,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,50200.0,5284.21,5365.11,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1515,2026-09-10,Rivers,mkt_mile1,Mile 1 Market,onions,Onions,Paint Bucket (~3kg),3.0,1800.0,600.0,607.96,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1080,2026-09-10,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,Derica (850g),0.85,3800.0,4470.59,4502.27,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1496,2026-09-10,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,1 kg,1.0,900.0,900.0,931.05,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1145,2026-09-10,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,1 kg,1.0,5150.0,5150.0,4873.56,Mama Ngozi Stores,Market Agent,0,verified,None
+SUB-1137,2026-09-10,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,Mudu (1.3kg),1.3,1100.0,846.15,820.99,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1051,2026-09-10,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,1 kg,1.0,900.0,900.0,901.36,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1454,2026-09-10,Rivers,mkt_mile1,Mile 1 Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,10950.0,2737.5,2896.61,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1069,2026-09-10,Lagos,mkt_alabarago,Alaba Rago Market,onions,Onions,1 kg,1.0,600.0,600.0,566.37,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1596,2026-09-09,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,5 kg Catering Pack,4.8,25100.0,5229.17,5378.88,Bala Agro Traders,Retailer,0,verified,None
+SUB-1168,2026-09-09,Oyo,mkt_bodija,Bodija Market,rice,Rice,50kg Bag,46.5,200800.0,4318.28,4209.27,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1309,2026-09-09,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,8400.0,2210.53,2219.62,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1652,2026-09-09,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,1 kg,1.0,700.0,700.0,681.75,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1845,2026-09-09,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,50kg Bag,46.0,31800.0,691.3,670.83,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1565,2026-09-09,Lagos,mkt_mile12,Mile 12 International Market,fish,Fish,1 kg,1.0,700.0,700.0,688.23,Bala Agro Traders,Consumer,0,verified,None
+SUB-1662,2026-09-09,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,638.09,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1771,2026-09-09,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,1 kg,1.0,850.0,850.0,884.5,Iya Bose Provision,Retailer,0,verified,None
+SUB-1247,2026-09-09,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,25kg Mesh Bag,23.5,12650.0,538.3,546.69,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1150,2026-09-09,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,162600.0,5081.25,4873.56,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1914,2026-09-09,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3150.0,6057.69,6084.9,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1467,2026-09-09,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2950.0,5673.08,5840.03,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1709,2026-09-09,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,1 kg,1.0,4400.0,4400.0,4276.94,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1029,2026-09-09,Lagos,mkt_alabarago,Alaba Rago Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,646.25,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1123,2026-09-09,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,573.42,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1944,2026-09-09,Abuja (FCT),mkt_wuse,Wuse Market,groundnuts,Groundnuts,50kg Bag,46.5,185300.0,3984.95,3831.99,Mama Ngozi Stores,Consumer,0,verified,None
+SUB-1074,2026-09-08,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,Derica (850g),0.85,3750.0,4411.76,4502.27,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1336,2026-09-08,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,Small Basket (~5kg),5.0,1900.0,380.0,387.89,Kemi Supermarket,Retailer,0,verified,None
+SUB-1843,2026-09-08,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,670.83,Obinna Foodstuff,Consumer,0,verified,None
+SUB-1048,2026-09-08,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3650.0,912.5,901.36,Iya Bose Provision,Retailer,0,verified,None
+SUB-1929,2026-09-08,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,Derica (750g),0.75,550.0,733.33,748.09,Bala Agro Traders,Wholesaler,0,verified,None
+SUB-1011,2026-09-08,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2900.0,5576.92,5365.11,Bala Agro Traders,Retailer,0,verified,None
+SUB-1870,2026-09-08,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,168800.0,5275.0,5509.84,Bala Agro Traders,Retailer,0,verified,None
+SUB-1356,2026-09-08,Kano,mkt_dawanau,Dawanau International Grain Market,yam,Yam,100 Tubers (Wholesale Pile),225.0,689650.0,3065.11,3057.79,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1922,2026-09-08,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,1 kg,1.0,750.0,750.0,769.68,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1983,2026-09-08,Abuja (FCT),mkt_wuse,Wuse Market,yam,Yam,Medium Tuber (~2.5kg),2.5,9450.0,3780.0,3775.41,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1013,2026-09-08,Lagos,mkt_alabarago,Alaba Rago Market,eggs,Eggs,Crate (30 Eggs),1.0,5300.0,5300.0,5365.11,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1900,2026-09-08,Lagos,mkt_oyingbo,Oyingbo Market,yam,Yam,5 Tubers Heap,12.0,12250.0,1020.83,3529.19,Adaeze Kitchen Supply,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1950,2026-09-08,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,100kg Bag,92.0,87900.0,955.43,965.26,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1908,2026-09-08,Abuja (FCT),mkt_wuse,Wuse Market,beans,Beans,Derica (800g),0.8,2250.0,2812.5,2945.01,Mama Ngozi Stores,Consumer,0,verified,None
+SUB-1335,2026-09-08,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,Paint Bucket (~3kg),3.0,1100.0,366.67,387.89,Kemi Supermarket,Retailer,0,verified,None
+SUB-1523,2026-09-08,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,1 kg,1.0,5100.0,5100.0,4832.53,Iya Bose Provision,Consumer,0,verified,None
+SUB-1669,2026-09-08,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,12850.0,3381.58,3250.38,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1207,2026-09-08,Lagos,mkt_daleko,Daleko Rice & Grain Market,fish,Fish,20kg Frozen Carton,18.8,3700.0,196.81,656.75,Adaeze Kitchen Supply,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1591,2026-09-08,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,1 kg,1.0,950.0,950.0,890.05,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1739,2026-09-08,Enugu,mkt_ogbete,Ogbete Main Market,fish,Fish,1 kg,1.0,650.0,650.0,653.36,Iya Bose Provision,Retailer,0,verified,None
+SUB-1149,2026-09-08,Oyo,mkt_bodija,Bodija Market,meat_beef,Beef,5 kg Catering Pack,4.8,23950.0,4989.58,4873.56,Bala Agro Traders,Retailer,0,verified,None
+SUB-1284,2026-09-08,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2800.0,5384.62,5204.01,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1673,2026-09-08,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,12550.0,3302.63,3250.38,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1722,2026-09-08,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,Derica (800g),0.8,2200.0,2750.0,2674.94,Kemi Supermarket,Retailer,0,verified,None
+SUB-1135,2026-09-08,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,1 kg,1.0,900.0,900.0,3094.24,Kemi Supermarket,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1264,2026-09-08,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,Large Tuber (~4kg),4.0,13400.0,3350.0,3310.66,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1710,2026-09-08,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,Derica (850g),0.85,3600.0,4235.29,4276.94,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1692,2026-09-08,Abuja (FCT),mkt_nyanya,Nyanya Market,meat_beef,Beef,5 kg Catering Pack,4.8,24350.0,5072.92,5056.23,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1749,2026-09-08,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,641.05,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1241,2026-09-08,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,1 kg,1.0,4900.0,4900.0,5186.47,Iya Bose Provision,Retailer,0,verified,None
+SUB-1102,2026-09-08,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,49100.0,5168.42,5070.48,Kemi Supermarket,Consumer,0,verified,None
+SUB-1512,2026-09-08,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,5 kg Catering Pack,4.8,24550.0,5114.58,5440.52,Bala Agro Traders,Consumer,0,verified,None
+SUB-1792,2026-09-07,Enugu,mkt_ogbete,Ogbete Main Market,onions,Onions,25kg Mesh Bag,23.5,3350.0,142.55,587.39,Iya Bose Provision,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1268,2026-09-07,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8050.0,3220.0,3310.66,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1189,2026-09-07,Lagos,mkt_daleko,Daleko Rice & Grain Market,beans,Beans,Mudu (1.25kg),1.25,850.0,680.0,2731.23,Hajiya Amina Staples,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1732,2026-09-07,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,50550.0,5321.05,5202.86,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1333,2026-09-07,Kano,mkt_dawanau,Dawanau International Grain Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,20650.0,645.31,3382.56,Kemi Supermarket,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1887,2026-09-07,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,25kg Half-Bag,25.0,117600.0,4704.0,4710.85,Bala Agro Traders,Retailer,0,verified,None
+SUB-1558,2026-09-07,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,13950.0,1468.42,5645.42,Hajiya Amina Staples,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1553,2026-09-07,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,Crate (30 Eggs),1.0,5500.0,5500.0,5645.42,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1108,2026-09-07,Oyo,mkt_bodija,Bodija Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,15100.0,1589.47,5070.48,Chinedu Bulk Foods,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1506,2026-09-07,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,5 kg Catering Pack,4.8,26300.0,5479.17,5440.52,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1684,2026-09-07,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,50kg Bag,47.0,8050.0,171.28,826.21,Mama Ngozi Stores,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1801,2026-09-07,Enugu,mkt_ogbete,Ogbete Main Market,rice,Rice,Mudu (1.3kg),1.3,1050.0,807.69,4199.18,Hajiya Amina Staples,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1129,2026-09-07,Oyo,mkt_bodija,Bodija Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,12650.0,3328.95,3094.24,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1926,2026-09-07,Abuja (FCT),mkt_wuse,Wuse Market,fish,Fish,5 kg Pack,4.85,3800.0,783.51,769.68,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1588,2026-09-07,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3550.0,887.5,890.05,Iya Bose Provision,Retailer,0,verified,None
+SUB-1177,2026-09-07,Oyo,mkt_bodija,Bodija Market,yam,Yam,1 kg,1.0,3300.0,3300.0,3165.15,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1912,2026-09-07,Abuja (FCT),mkt_wuse,Wuse Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,57650.0,6068.42,6084.9,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1538,2026-09-07,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8700.0,3480.0,3522.57,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1528,2026-09-07,Rivers,mkt_mile1,Mile 1 Market,rice,Rice,50kg Bag,46.5,219500.0,4720.43,4832.53,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1736,2026-09-07,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,Crate (30 Eggs),1.0,5100.0,5100.0,5202.86,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1434,2026-09-07,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,Derica (850g),0.85,2800.0,3294.12,3163.75,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1197,2026-09-07,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2900.0,5576.92,5601.28,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1494,2026-09-07,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,50kg Bag,46.5,168050.0,3613.98,3733.27,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1576,2026-09-06,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,1 kg,1.0,200.0,200.0,629.35,Tunde Retail Mart,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1343,2026-09-06,Kano,mkt_dawanau,Dawanau International Grain Market,rice,Rice,1 kg,1.0,3000.0,3000.0,2859.11,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1235,2026-09-06,Lagos,mkt_daleko,Daleko Rice & Grain Market,meat_beef,Beef,1 kg,1.0,5250.0,5250.0,5186.47,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1229,2026-09-06,Lagos,mkt_daleko,Daleko Rice & Grain Market,maize_fao,Maize,50kg Bag,47.0,40050.0,852.13,855.56,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1699,2026-09-06,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,1 kg,1.0,550.0,550.0,551.73,Adaeze Kitchen Supply,Consumer,0,verified,None
+SUB-1095,2026-09-06,Oyo,mkt_bodija,Bodija Market,beans,Beans,50kg Bag,47.0,128550.0,2735.11,2629.59,Iya Bose Provision,Retailer,0,verified,None
+SUB-1767,2026-09-06,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,Mudu (1.3kg),1.3,1100.0,846.15,884.5,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1319,2026-09-06,Kano,mkt_dawanau,Dawanau International Grain Market,maize_fao,Maize,50kg Bag,47.0,27850.0,592.55,597.65,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1082,2026-09-06,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,1 kg,1.0,3500.0,3500.0,3351.14,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1573,2026-09-06,Lagos,mkt_mile12,Mile 12 International Market,gari_fao,Garri,Derica (750g),0.75,450.0,600.0,629.35,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1054,2026-09-06,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,50kg Bag,47.0,11150.0,237.23,901.36,Mama Ngozi Stores,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1667,2026-09-06,Abuja (FCT),mkt_nyanya,Nyanya Market,groundnuts,Groundnuts,1 kg,1.0,3300.0,3300.0,3250.38,Bala Agro Traders,Retailer,0,verified,None
+SUB-1426,2026-09-06,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,Small Basket (~5kg),5.0,2150.0,430.0,416.89,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1700,2026-09-05,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,Paint Bucket (~3kg),3.0,1650.0,550.0,551.73,Chinedu Bulk Foods,Consumer,0,verified,None
+SUB-1838,2026-09-05,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,1 kg,1.0,700.0,700.0,670.83,Obinna Foodstuff,Consumer,0,verified,None
+SUB-1676,2026-09-05,Abuja (FCT),mkt_nyanya,Nyanya Market,maize_fao,Maize,1 kg,1.0,800.0,800.0,826.21,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1959,2026-09-05,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,5 kg Catering Pack,4.8,25550.0,5322.92,5505.69,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1462,2026-09-05,Rivers,mkt_mile1,Mile 1 Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,57550.0,6057.89,5840.03,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1973,2026-09-05,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,1 kg,1.0,4950.0,4950.0,4755.92,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1702,2026-09-05,Abuja (FCT),mkt_nyanya,Nyanya Market,onions,Onions,25kg Mesh Bag,23.5,2700.0,114.89,551.73,Bala Agro Traders,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1636,2026-09-05,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,100kg Jute Bag,92.0,236850.0,2574.46,2589.84,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1489,2026-09-05,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,14100.0,3710.53,3733.27,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1951,2026-09-05,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,1 kg,1.0,1000.0,1000.0,965.26,Kemi Supermarket,Retailer,0,verified,None
+SUB-1118,2026-09-05,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,1 kg,1.0,550.0,550.0,573.42,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1244,2026-09-05,Lagos,mkt_daleko,Daleko Rice & Grain Market,onions,Onions,1 kg,1.0,550.0,550.0,546.69,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1783,2026-09-05,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,56650.0,1770.31,5195.5,Chinedu Bulk Foods,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1038,2026-09-05,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4300.0,3583.33,3486.92,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1752,2026-09-05,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,1 kg,1.0,650.0,650.0,641.05,Iya Bose Provision,Consumer,0,verified,None
+SUB-1965,2026-09-05,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,Paint Bucket (~3kg),3.0,1950.0,650.0,624.41,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1479,2026-09-05,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,Derica (750g),0.75,550.0,733.33,699.83,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1270,2026-09-05,Lagos,mkt_daleko,Daleko Rice & Grain Market,yam,Yam,5 Tubers Heap,12.0,9800.0,816.67,3310.66,Kemi Supermarket,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1143,2026-09-05,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3350.0,837.5,820.99,Iya Bose Provision,Retailer,0,verified,None
+SUB-1889,2026-09-05,Lagos,mkt_oyingbo,Oyingbo Market,rice,Rice,1 kg,1.0,4650.0,4650.0,4710.85,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1634,2026-09-04,Abuja (FCT),mkt_nyanya,Nyanya Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,10450.0,2612.5,2589.84,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1967,2026-09-04,Abuja (FCT),mkt_wuse,Wuse Market,onions,Onions,25kg Mesh Bag,23.5,14600.0,621.28,624.41,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1620,2026-09-04,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,Derica (850g),0.85,3850.0,4529.41,4509.93,Kemi Supermarket,Retailer,0,verified,None
+SUB-1712,2026-09-04,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,1 kg,1.0,3200.0,3200.0,3325.17,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1955,2026-09-04,Abuja (FCT),mkt_wuse,Wuse Market,meat_beef,Beef,1 kg,1.0,5550.0,5550.0,5505.69,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1590,2026-09-04,Lagos,mkt_mile12,Mile 12 International Market,maize_fao,Maize,100kg Bag,92.0,81050.0,880.98,890.05,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1949,2026-09-04,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,50kg Bag,47.0,45150.0,960.64,965.26,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1441,2026-09-04,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,Mudu (1.3kg),1.3,1100.0,846.15,3163.75,Alhaji Musa Grains,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1283,2026-09-04,Kano,mkt_dawanau,Dawanau International Grain Market,eggs,Eggs,Crate (30 Eggs),1.0,5250.0,5250.0,5204.01,Kemi Supermarket,Market Agent,0,verified,None
+SUB-1277,2026-09-04,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,1 kg,1.0,1800.0,1800.0,1800.28,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1780,2026-09-04,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,170950.0,5342.19,5195.5,Bala Agro Traders,Retailer,0,verified,None
+SUB-1081,2026-09-04,Lagos,mkt_alabarago,Alaba Rago Market,rice,Rice,Mudu (1.3kg),1.3,1600.0,1230.77,4502.27,Obinna Foodstuff,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1401,2026-09-04,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,groundnuts,Groundnuts,1 kg,1.0,2550.0,2550.0,2571.37,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1138,2026-09-04,Oyo,mkt_bodija,Bodija Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3400.0,850.0,820.99,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1492,2026-09-04,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4450.0,3708.33,3733.27,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1223,2026-09-04,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,12100.0,3184.21,3278.25,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1003,2026-09-04,Lagos,mkt_alabarago,Alaba Rago Market,beans,Beans,Mudu (1.25kg),1.25,3500.0,2800.0,2793.69,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1846,2026-09-04,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,1 kg,1.0,150.0,150.0,670.83,Iya Bose Provision,Market Agent,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1056,2026-09-04,Lagos,mkt_alabarago,Alaba Rago Market,meat_beef,Beef,5 kg Catering Pack,4.8,25000.0,5208.33,5121.25,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1830,2026-09-04,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,5 kg Pack,4.85,3500.0,721.65,707.31,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1814,2026-09-04,Lagos,mkt_oyingbo,Oyingbo Market,beans,Beans,Paint Bucket / Olodo (4kg),4.0,11800.0,2950.0,2855.22,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1577,2026-09-04,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,1 kg,1.0,3500.0,3500.0,3483.28,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1579,2026-09-04,Lagos,mkt_mile12,Mile 12 International Market,groundnuts,Groundnuts,Paint Bucket / Olodo (3.8kg),3.8,13800.0,3631.58,3483.28,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1371,2026-09-04,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2650.0,5096.15,4943.01,Kemi Supermarket,Wholesaler,0,verified,None
+SUB-1835,2026-09-04,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,1 kg,1.0,700.0,700.0,707.31,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1491,2026-09-04,Rivers,mkt_mile1,Mile 1 Market,groundnuts,Groundnuts,1 kg,1.0,3700.0,3700.0,3733.27,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1621,2026-09-03,Lagos,mkt_mile12,Mile 12 International Market,rice,Rice,Mudu (1.3kg),1.3,1500.0,1153.85,4509.93,Tunde Retail Mart,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1088,2026-09-03,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8900.0,3560.0,3351.14,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1829,2026-09-03,Lagos,mkt_oyingbo,Oyingbo Market,fish,Fish,1 kg,1.0,700.0,700.0,707.31,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1852,2026-09-03,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,4400.0,3666.67,3743.73,Hajiya Amina Staples,Wholesaler,0,verified,None
+SUB-1851,2026-09-03,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,1 kg,1.0,3500.0,3500.0,3743.73,Chinedu Bulk Foods,Wholesaler,0,verified,None
+SUB-1647,2026-09-03,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,Half Crate (15 Eggs),0.52,2850.0,5480.77,5493.32,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1659,2026-09-03,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,Derica (750g),0.75,500.0,666.67,638.09,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1630,2026-09-03,Lagos,mkt_mile12,Mile 12 International Market,yam,Yam,5 Tubers Heap,12.0,11700.0,975.0,3220.61,Adaeze Kitchen Supply,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1840,2026-09-03,Lagos,mkt_oyingbo,Oyingbo Market,gari_fao,Garri,Paint Bucket / Olodo (3.5kg),3.5,2450.0,700.0,670.83,Tunde Retail Mart,Retailer,0,verified,None
+SUB-1711,2026-09-03,Abuja (FCT),mkt_nyanya,Nyanya Market,rice,Rice,Mudu (1.3kg),1.3,1550.0,1192.31,4276.94,Adaeze Kitchen Supply,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1665,2026-09-03,Abuja (FCT),mkt_nyanya,Nyanya Market,gari_fao,Garri,50kg Bag,46.0,28800.0,626.09,638.09,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1083,2026-09-03,Lagos,mkt_alabarago,Alaba Rago Market,yam,Yam,Medium Tuber (~2.5kg),2.5,8450.0,3380.0,3351.14,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1713,2026-09-03,Abuja (FCT),mkt_nyanya,Nyanya Market,yam,Yam,Medium Tuber (~2.5kg),2.5,7950.0,3180.0,3325.17,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1438,2026-09-03,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,rice,Rice,50kg Bag,46.5,149450.0,3213.98,3163.75,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1539,2026-09-03,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,Large Tuber (~4kg),4.0,14100.0,3525.0,3522.57,Kemi Supermarket,Retailer,0,verified,None
+SUB-1192,2026-09-03,Lagos,mkt_daleko,Daleko Rice & Grain Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,52750.0,5552.63,5601.28,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1444,2026-09-03,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,yam,Yam,Large Tuber (~4kg),4.0,11950.0,2987.5,3042.32,Tunde Retail Mart,Consumer,0,verified,None
+SUB-1040,2026-09-03,Lagos,mkt_alabarago,Alaba Rago Market,groundnuts,Groundnuts,50kg Bag,46.5,163100.0,3507.53,3486.92,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1555,2026-09-03,Lagos,mkt_mile12,Mile 12 International Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,55350.0,5826.32,5645.42,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1642,2026-09-03,Abuja (FCT),mkt_nyanya,Nyanya Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,53800.0,5663.16,5493.32,Tunde Retail Mart,Market Agent,0,verified,None
+SUB-1597,2026-09-03,Lagos,mkt_mile12,Mile 12 International Market,meat_beef,Beef,Quarter Cow Share (~35kg),32.0,172350.0,5385.94,5378.88,Chinedu Bulk Foods,Market Agent,0,verified,None
+SUB-1372,2026-09-03,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,47300.0,4978.95,4943.01,Alhaji Musa Grains,Wholesaler,0,verified,None
+SUB-1761,2026-09-03,Enugu,mkt_ogbete,Ogbete Main Market,groundnuts,Groundnuts,1 kg,1.0,3600.0,3600.0,3442.75,Kemi Supermarket,Retailer,0,verified,None
+SUB-1050,2026-09-03,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,100kg Bag,92.0,82950.0,901.63,901.36,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1021,2026-09-03,Lagos,mkt_alabarago,Alaba Rago Market,fish,Fish,20kg Frozen Carton,18.8,13450.0,715.43,686.14,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1218,2026-09-03,Lagos,mkt_daleko,Daleko Rice & Grain Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,3950.0,3291.67,3278.25,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1979,2026-09-02,Abuja (FCT),mkt_wuse,Wuse Market,rice,Rice,1 kg,1.0,4600.0,4600.0,4755.92,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1099,2026-09-02,Oyo,mkt_bodija,Bodija Market,beans,Beans,Mudu (1.25kg),1.25,1100.0,880.0,2629.59,Chinedu Bulk Foods,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1782,2026-09-02,Enugu,mkt_ogbete,Ogbete Main Market,meat_beef,Beef,5 kg Catering Pack,4.8,25750.0,5364.58,5195.5,Kemi Supermarket,Retailer,0,verified,None
+SUB-1308,2026-09-02,Kano,mkt_dawanau,Dawanau International Grain Market,groundnuts,Groundnuts,Mudu (1.2kg),1.2,2650.0,2208.33,2219.62,Mama Ngozi Stores,Wholesaler,0,verified,None
+SUB-1804,2026-09-02,Enugu,mkt_ogbete,Ogbete Main Market,yam,Yam,Large Tuber (~4kg),4.0,13100.0,3275.0,3258.33,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1952,2026-09-02,Abuja (FCT),mkt_wuse,Wuse Market,maize_fao,Maize,Mudu (1.3kg),1.3,1250.0,961.54,965.26,Bala Agro Traders,Market Agent,0,verified,None
+SUB-1126,2026-09-02,Oyo,mkt_bodija,Bodija Market,gari_fao,Garri,1 kg,1.0,200.0,200.0,573.42,Chinedu Bulk Foods,Wholesaler,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1534,2026-09-02,Rivers,mkt_mile1,Mile 1 Market,yam,Yam,Large Tuber (~4kg),4.0,13950.0,3487.5,3522.57,Adaeze Kitchen Supply,Wholesaler,0,verified,None
+SUB-1291,2026-09-02,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,20kg Frozen Carton,18.8,11550.0,614.36,592.28,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1273,2026-09-02,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,Mudu (1.25kg),1.25,2250.0,1800.0,1800.28,Kemi Supermarket,Retailer,0,verified,None
+SUB-1735,2026-09-02,Enugu,mkt_ogbete,Ogbete Main Market,eggs,Eggs,10 Crates Bundle (Wholesale),9.5,48650.0,5121.05,5202.86,Tunde Retail Mart,Wholesaler,0,verified,None
+SUB-1606,2026-09-02,Lagos,mkt_mile12,Mile 12 International Market,onions,Onions,Small Basket (~5kg),5.0,2850.0,570.0,574.44,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1933,2026-09-02,Abuja (FCT),mkt_wuse,Wuse Market,gari_fao,Garri,Derica (750g),0.75,550.0,733.33,748.09,Chinedu Bulk Foods,Retailer,0,verified,None
+SUB-1505,2026-09-01,Rivers,mkt_mile1,Mile 1 Market,meat_beef,Beef,1 kg,1.0,5400.0,5400.0,5440.52,Hajiya Amina Staples,Market Agent,0,verified,None
+SUB-1294,2026-09-01,Kano,mkt_dawanau,Dawanau International Grain Market,fish,Fish,20kg Frozen Carton,18.8,11500.0,611.7,592.28,Obinna Foodstuff,Wholesaler,0,verified,None
+SUB-1500,2026-09-01,Rivers,mkt_mile1,Mile 1 Market,maize_fao,Maize,100kg Bag,92.0,84050.0,913.59,931.05,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1847,2026-09-01,Lagos,mkt_oyingbo,Oyingbo Market,groundnuts,Groundnuts,1 kg,1.0,3750.0,3750.0,3743.73,Iya Bose Provision,Wholesaler,0,verified,None
+SUB-1866,2026-09-01,Lagos,mkt_oyingbo,Oyingbo Market,meat_beef,Beef,5 kg Catering Pack,4.8,25800.0,5375.0,5509.84,Kemi Supermarket,Retailer,0,verified,None
+SUB-1298,2026-09-01,Kano,mkt_dawanau,Dawanau International Grain Market,gari_fao,Garri,1 kg,1.0,600.0,600.0,610.23,Iya Bose Provision,Retailer,0,verified,None
+SUB-1824,2026-09-01,Lagos,mkt_oyingbo,Oyingbo Market,eggs,Eggs,Half Crate (15 Eggs),0.52,3000.0,5769.23,5764.74,Adaeze Kitchen Supply,Retailer,0,verified,None
+SUB-1424,2026-09-01,Plateau,mkt_farin_gada,Farin Gada Tomato & Tuber Market,onions,Onions,1 kg,1.0,400.0,400.0,416.89,Hajiya Amina Staples,Retailer,0,verified,None
+SUB-1482,2026-09-01,Rivers,mkt_mile1,Mile 1 Market,gari_fao,Garri,1 kg,1.0,700.0,700.0,699.83,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1469,2026-09-01,Rivers,mkt_mile1,Mile 1 Market,fish,Fish,1 kg,1.0,750.0,750.0,735.1,Adaeze Kitchen Supply,Market Agent,0,verified,None
+SUB-1053,2026-09-01,Lagos,mkt_alabarago,Alaba Rago Market,maize_fao,Maize,Paint Bucket / Olodo (4kg),4.0,3500.0,875.0,901.36,Mama Ngozi Stores,Retailer,0,verified,None
+SUB-1774,2026-09-01,Enugu,mkt_ogbete,Ogbete Main Market,maize_fao,Maize,50kg Bag,47.0,9900.0,210.64,884.5,Iya Bose Provision,Retailer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1278,2026-09-01,Kano,mkt_dawanau,Dawanau International Grain Market,beans,Beans,Derica (800g),0.8,1350.0,1687.5,1800.28,Alhaji Musa Grains,Retailer,0,verified,None
+SUB-1755,2026-09-01,Enugu,mkt_ogbete,Ogbete Main Market,gari_fao,Garri,50kg Bag,46.0,30000.0,652.17,641.05,Obinna Foodstuff,Retailer,0,verified,None
+SUB-1334,2026-09-01,Kano,mkt_dawanau,Dawanau International Grain Market,onions,Onions,1 kg,1.0,400.0,400.0,387.89,Obinna Foodstuff,Market Agent,0,verified,None
+SUB-1253,2026-09-01,Lagos,mkt_daleko,Daleko Rice & Grain Market,rice,Rice,1 kg,1.0,4300.0,4300.0,4181.94,Iya Bose Provision,Market Agent,0,verified,None
+SUB-1729,2026-09-01,Enugu,mkt_ogbete,Ogbete Main Market,beans,Beans,Mudu (1.25kg),1.25,900.0,720.0,2674.94,Adaeze Kitchen Supply,Consumer,1,flagged,Unusually low price (<35% of market benchmark / unit mismatch)
+SUB-1653,2026-09-01,Abuja (FCT),mkt_nyanya,Nyanya Market,fish,Fish,5 kg Pack,4.85,3200.0,659.79,681.75,Obinna Foodstuff,Retailer,0,verified,None

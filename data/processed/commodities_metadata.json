@@ -1,0 +1,437 @@
+{
+  "rice": {
+    "id": "rice",
+    "display_name": "Rice (Parboiled / Local & Imported)",
+    "short_name": "Rice",
+    "category": "Grains & Cereals",
+    "base_unit": "1 kg",
+    "default_retail_unit": "50kg Bag",
+    "northern_crop": true,
+    "harvest_months": [
+      10,
+      11,
+      12
+    ],
+    "lean_months": [
+      6,
+      7,
+      8
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Derica (850g)",
+        "kg_equivalent": 0.85,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Mudu (1.3kg)",
+        "kg_equivalent": 1.3,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Paint Bucket / Olodo (4kg)",
+        "kg_equivalent": 4.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "25kg Half-Bag",
+        "kg_equivalent": 25.0,
+        "is_wholesale": true
+      },
+      {
+        "unit_name": "50kg Bag",
+        "kg_equivalent": 46.5,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "beans": {
+    "id": "beans",
+    "display_name": "Beans (Brown Oloyin / White)",
+    "short_name": "Beans",
+    "category": "Legumes & Pulses",
+    "base_unit": "1 kg",
+    "default_retail_unit": "Paint Bucket / Olodo (4kg)",
+    "northern_crop": true,
+    "harvest_months": [
+      10,
+      11,
+      12,
+      1
+    ],
+    "lean_months": [
+      6,
+      7,
+      8
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Derica (800g)",
+        "kg_equivalent": 0.8,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Mudu (1.25kg)",
+        "kg_equivalent": 1.25,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Paint Bucket / Olodo (4kg)",
+        "kg_equivalent": 4.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "50kg Bag",
+        "kg_equivalent": 47.0,
+        "is_wholesale": true
+      },
+      {
+        "unit_name": "100kg Jute Bag",
+        "kg_equivalent": 92.0,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "gari_fao": {
+    "id": "gari_fao",
+    "display_name": "Garri (White & Yellow IJebu/Bendel)",
+    "short_name": "Garri",
+    "category": "Tubers & Roots",
+    "base_unit": "1 kg",
+    "default_retail_unit": "Paint Bucket / Olodo (3.5kg)",
+    "northern_crop": false,
+    "harvest_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "lean_months": [
+      2,
+      3,
+      4
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Derica (750g)",
+        "kg_equivalent": 0.75,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Paint Bucket / Olodo (3.5kg)",
+        "kg_equivalent": 3.5,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "50kg Bag",
+        "kg_equivalent": 46.0,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "maize_fao": {
+    "id": "maize_fao",
+    "display_name": "Maize (Yellow & White Dry Grain)",
+    "short_name": "Maize",
+    "category": "Grains & Cereals",
+    "base_unit": "1 kg",
+    "default_retail_unit": "Paint Bucket / Olodo (4kg)",
+    "northern_crop": true,
+    "harvest_months": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "lean_months": [
+      4,
+      5,
+      6
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Mudu (1.3kg)",
+        "kg_equivalent": 1.3,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Paint Bucket / Olodo (4kg)",
+        "kg_equivalent": 4.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "50kg Bag",
+        "kg_equivalent": 47.0,
+        "is_wholesale": true
+      },
+      {
+        "unit_name": "100kg Bag",
+        "kg_equivalent": 92.0,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "yam": {
+    "id": "yam",
+    "display_name": "Yam (Benue / Abuja White Tuber)",
+    "short_name": "Yam",
+    "category": "Tubers & Roots",
+    "base_unit": "1 kg",
+    "default_retail_unit": "Medium Tuber (~2.5kg)",
+    "northern_crop": false,
+    "harvest_months": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "lean_months": [
+      4,
+      5,
+      6
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Medium Tuber (~2.5kg)",
+        "kg_equivalent": 2.5,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Large Tuber (~4kg)",
+        "kg_equivalent": 4.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "5 Tubers Heap",
+        "kg_equivalent": 12.0,
+        "is_wholesale": true
+      },
+      {
+        "unit_name": "100 Tubers (Wholesale Pile)",
+        "kg_equivalent": 225.0,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "onions": {
+    "id": "onions",
+    "display_name": "Onions (Red Sokoto / Kano Bulb)",
+    "short_name": "Onions",
+    "category": "Vegetables & Perishables",
+    "base_unit": "1 kg",
+    "default_retail_unit": "Small Basket (~5kg)",
+    "northern_crop": true,
+    "harvest_months": [
+      2,
+      3,
+      4,
+      12
+    ],
+    "lean_months": [
+      7,
+      8,
+      9
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Paint Bucket (~3kg)",
+        "kg_equivalent": 3.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Small Basket (~5kg)",
+        "kg_equivalent": 5.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "25kg Mesh Bag",
+        "kg_equivalent": 23.5,
+        "is_wholesale": true
+      },
+      {
+        "unit_name": "Large Raffia Bag (~70kg)",
+        "kg_equivalent": 65.0,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "groundnuts": {
+    "id": "groundnuts",
+    "display_name": "Groundnuts (Shelled Raw)",
+    "short_name": "Groundnuts",
+    "category": "Legumes & Pulses",
+    "base_unit": "1 kg",
+    "default_retail_unit": "Paint Bucket / Olodo (3.8kg)",
+    "northern_crop": true,
+    "harvest_months": [
+      9,
+      10,
+      11
+    ],
+    "lean_months": [
+      4,
+      5,
+      6
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Mudu (1.2kg)",
+        "kg_equivalent": 1.2,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Paint Bucket / Olodo (3.8kg)",
+        "kg_equivalent": 3.8,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "50kg Bag",
+        "kg_equivalent": 46.5,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "meat_beef": {
+    "id": "meat_beef",
+    "display_name": "Beef (Boneless Fresh)",
+    "short_name": "Beef",
+    "category": "Livestock & Protein",
+    "base_unit": "1 kg",
+    "default_retail_unit": "1 kg",
+    "northern_crop": true,
+    "harvest_months": [
+      11,
+      12,
+      1
+    ],
+    "lean_months": [
+      5,
+      6,
+      7
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "5 kg Catering Pack",
+        "kg_equivalent": 4.8,
+        "is_wholesale": true
+      },
+      {
+        "unit_name": "Quarter Cow Share (~35kg)",
+        "kg_equivalent": 32.0,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "fish": {
+    "id": "fish",
+    "display_name": "Fish (Titus / Smoked Catfish Base)",
+    "short_name": "Fish",
+    "category": "Livestock & Protein",
+    "base_unit": "1 kg",
+    "default_retail_unit": "1 kg",
+    "northern_crop": false,
+    "harvest_months": [
+      10,
+      11,
+      12
+    ],
+    "lean_months": [
+      6,
+      7
+    ],
+    "units": [
+      {
+        "unit_name": "1 kg",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "5 kg Pack",
+        "kg_equivalent": 4.85,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "20kg Frozen Carton",
+        "kg_equivalent": 18.8,
+        "is_wholesale": true
+      }
+    ]
+  },
+  "eggs": {
+    "id": "eggs",
+    "display_name": "Eggs (Medium Poultry Crate)",
+    "short_name": "Eggs",
+    "category": "Livestock & Protein",
+    "base_unit": "Crate (30 Eggs)",
+    "default_retail_unit": "Crate (30 Eggs)",
+    "northern_crop": false,
+    "harvest_months": [
+      1,
+      2,
+      10,
+      11
+    ],
+    "lean_months": [
+      5,
+      6,
+      7
+    ],
+    "units": [
+      {
+        "unit_name": "Crate (30 Eggs)",
+        "kg_equivalent": 1.0,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "Half Crate (15 Eggs)",
+        "kg_equivalent": 0.52,
+        "is_wholesale": false
+      },
+      {
+        "unit_name": "10 Crates Bundle (Wholesale)",
+        "kg_equivalent": 9.5,
+        "is_wholesale": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+# Python virtual environments & caches
+Foodprice/
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local SQLite database (auto-seeded on startup)
+data/naijaprice.db
+*.sqlite3
+
+# Node / Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.local
